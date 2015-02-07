@@ -1,0 +1,78 @@
+When creating a package, we are working in a temporary directory that
+has the delivered files underneath, as well as the various packaging
+files
+
+For each package we wish to transmogrify, a file named after the SVR4
+package will exist here. The conversion script simply looks for the
+name.
+
+The file contains lines of actions. Generally, the format of each line
+will be
+
+action pathname [arguments]
+
+
+The pathname should omit the leading /, so that it's relative.
+
+The possible actions (not all yet implemented) are:
+
+delete pathname
+
+The pathname, a regular file, is removed from the package. To delete a
+directory, first delete all the files it contains and then rmdir the
+directory.
+
+linkdel pathname
+
+The pathname, packaged as a link, is removed from the package.
+
+rmdir pathname
+
+Like delete, but for a directory, which must be empty.
+
+restart fmri
+
+The named fmri is added to the list of services to be restarted at
+package install and removal.
+
+modify pathname script
+
+The contents of the file are modified in-place using gsed. This is
+equivalent to
+  gsed -i 'script' pathname
+
+add pathname owner=x group=y modez
+
+The pathname is added to the package. It's up to the caller to work out
+where to get the contents of the file from (whether from the installed
+system or the proto area)
+
+hardlink pathname target
+
+The pathname is added, as a hard link to the specified target.
+
+rename pathname newname
+
+The file named pathname will instead be delivered as newname.
+
+depend package
+
+Add a dependency on package.
+
+undepend package
+
+Remove the dependency on package.
+
+
+
+The actions are processed in order, so it is possible to have multiple
+actions for the same pathname.
+
+To move a file from one package to another, delete it from the package
+where you don't want it and add it to the package where you do.
+
+To delete a directory, first delete all the files it contains and then
+delete the directory. There is no automatic deletion of directories
+that become empty if all their contents are removed.
+
+The rename action only works on files.

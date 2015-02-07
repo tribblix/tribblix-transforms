@@ -1,0 +1,2 @@
+delete kernel/fs/amd64/cachefs
+delete kernel/fs/cachefs

@@ -1,0 +1,3 @@
+delete usr/lib/amd64/llib-lfcoe.ln
+delete usr/lib/llib-lfcoe
+delete usr/lib/llib-lfcoe.ln

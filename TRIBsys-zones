@@ -1,0 +1,5 @@
+modify etc/zones/SUNWblank.xml s/ipkg/native/
+modify etc/zones/SUNWdefault.xml s/ipkg/native/
+delete usr/lib/brand/ipkg/config.xml
+delete usr/lib/brand/ipkg/platform.xml
+rmdir usr/lib/brand/ipkg

@@ -1,0 +1,3 @@
+delete usr/lib/amd64/llib-lpool.ln
+delete usr/lib/llib-lpool
+delete usr/lib/llib-lpool.ln

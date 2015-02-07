@@ -1,0 +1,7 @@
+delete usr/include/sys/fs/cachefs_dir.h
+delete usr/include/sys/fs/cachefs_dlog.h
+delete usr/include/sys/fs/cachefs_filegrp.h
+delete usr/include/sys/fs/cachefs_fs.h
+delete usr/include/sys/fs/cachefs_fscache.h
+delete usr/include/sys/fs/cachefs_ioctl.h
+delete usr/include/sys/fs/cachefs_log.h

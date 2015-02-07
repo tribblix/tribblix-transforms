@@ -1,0 +1,2 @@
+modify etc/nsswitch.nis /^hosts/s:\(.*\):\1 dns:
+modify etc/nsswitch.nis /^ipnodes/s:\(.*\):\1 dns:

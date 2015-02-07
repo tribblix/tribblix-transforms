@@ -1,0 +1,3 @@
+delete usr/lib/amd64/llib-lbz2.ln
+delete usr/lib/llib-lbz2
+delete usr/lib/llib-lbz2.ln

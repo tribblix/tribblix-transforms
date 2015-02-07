@@ -1,0 +1,3 @@
+delete usr/lib/amd64/llib-lstmf.ln
+delete usr/lib/llib-lstmf
+delete usr/lib/llib-lstmf.ln

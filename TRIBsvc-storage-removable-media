@@ -1,0 +1,3 @@
+delete usr/lib/amd64/llib-lsmedia.ln
+delete usr/lib/llib-lsmedia
+delete usr/lib/llib-lsmedia.ln

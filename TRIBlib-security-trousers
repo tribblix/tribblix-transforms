@@ -1,0 +1,3 @@
+delete usr/lib/amd64/llib-ltspi.ln
+delete usr/lib/llib-ltspi
+delete usr/lib/llib-ltspi.ln

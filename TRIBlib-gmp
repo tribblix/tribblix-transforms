@@ -1,0 +1,3 @@
+delete usr/lib/amd64/llib-lgmp.ln
+delete usr/lib/llib-lgmp
+delete usr/lib/llib-lgmp.ln

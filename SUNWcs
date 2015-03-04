@@ -84,3 +84,5 @@ linkdel usr/sbin/cachefswssize
 linkdel usr/sbin/cfsadmin
 delete etc/init.d/cachefs.daemon
 linkdel etc/rc2.d/S73cachefs.daemon
+replace etc/profile
+replace etc/.login

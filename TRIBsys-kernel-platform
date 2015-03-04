@@ -1,0 +1,16 @@
+delete platform/SUNW,Ultra-Enterprise-10000/kernel/cpu/sparcv9/SUNW,UltraSPARC-II
+rmdir platform/SUNW,Ultra-Enterprise-10000/kernel/cpu/sparcv9
+rmdir platform/SUNW,Ultra-Enterprise-10000/kernel/cpu
+delete platform/SUNW,Ultra-Enterprise-10000/kernel/drv/sparcv9/pcipsy
+delete platform/SUNW,Ultra-Enterprise-10000/kernel/drv/sparcv9/rootnex
+delete platform/SUNW,Ultra-Enterprise-10000/kernel/drv/sparcv9/sbus
+rmdir platform/SUNW,Ultra-Enterprise-10000/kernel/drv/sparcv9
+rmdir platform/SUNW,Ultra-Enterprise-10000/kernel/drv
+delete platform/SUNW,Ultra-Enterprise-10000/kernel/misc/sparcv9/platmod
+rmdir platform/SUNW,Ultra-Enterprise-10000/kernel/misc/sparcv9
+rmdir platform/SUNW,Ultra-Enterprise-10000/kernel/misc
+delete platform/SUNW,Ultra-Enterprise-10000/kernel/sparcv9/unix
+rmdir platform/SUNW,Ultra-Enterprise-10000/kernel/sparcv9
+linkdel platform/SUNW,Ultra-Enterprise-10000/kernel/unix
+rmdir platform/SUNW,Ultra-Enterprise-10000/kernel
+rmdir platform/SUNW,Ultra-Enterprise-10000

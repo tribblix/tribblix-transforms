@@ -1,0 +1,6 @@
+delete usr/platform/SUNW,Ultra-Enterprise-10000/lib/libprtdiag_psr.so.1
+linkdel usr/platform/SUNW,Ultra-Enterprise-10000/lib/cfgadm
+linkdel usr/platform/SUNW,Ultra-Enterprise-10000/lib/fs
+linkdel usr/platform/SUNW,Ultra-Enterprise-10000/sbin
+rmdir usr/platform/SUNW,Ultra-Enterprise-10000/lib
+rmdir usr/platform/SUNW,Ultra-Enterprise-10000

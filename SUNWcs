@@ -68,6 +68,7 @@ delete usr/lib/fs/cachefs/mount
 delete usr/lib/fs/cachefs/share
 delete usr/lib/fs/cachefs/umount
 delete usr/lib/fs/cachefs/unshare
+rmdir usr/lib/fs/cachefs
 delete usr/share/man/man1m/cachefsd.1m
 delete usr/share/man/man1m/cachefslog.1m
 delete usr/share/man/man1m/cachefspack.1m
@@ -81,3 +82,5 @@ linkdel usr/bin/cachefsstat
 linkdel usr/sbin/cachefslog
 linkdel usr/sbin/cachefswssize
 linkdel usr/sbin/cfsadmin
+delete etc/init.d/cachefs.daemon
+linkdel etc/rc2.d/S73cachefs.daemon

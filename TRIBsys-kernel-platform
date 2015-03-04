@@ -14,3 +14,30 @@ rmdir platform/SUNW,Ultra-Enterprise-10000/kernel/sparcv9
 linkdel platform/SUNW,Ultra-Enterprise-10000/kernel/unix
 rmdir platform/SUNW,Ultra-Enterprise-10000/kernel
 rmdir platform/SUNW,Ultra-Enterprise-10000
+
+delete platform/SUNW,Sun-Fire-15000/kernel/cpu/sparcv9/SUNW,UltraSPARC-III
+delete platform/SUNW,Sun-Fire-15000/kernel/cpu/sparcv9/SUNW,UltraSPARC-III+
+linkdel platform/SUNW,Sun-Fire-15000/kernel/cpu/sparcv9/SUNW,UltraSPARC-IV
+linkdel platform/SUNW,Sun-Fire-15000/kernel/cpu/sparcv9/SUNW,UltraSPARC-IV+
+rmdir platform/SUNW,Sun-Fire-15000/kernel/cpu/sparcv9
+rmdir platform/SUNW,Sun-Fire-15000/kernel/cpu
+linkdelplatform/SUNW,Sun-Fire-15000/kernel/crypto/sparcv9/aes
+rmdir platform/SUNW,Sun-Fire-15000/kernel/crypto/sparcv9
+rmdir platform/SUNW,Sun-Fire-15000/kernel/crypto
+delete platform/SUNW,Sun-Fire-15000/kernel/drv/dman.conf
+delete platform/SUNW,Sun-Fire-15000/kernel/drv/schpc.conf
+delete platform/SUNW,Sun-Fire-15000/kernel/drv/sparcv9/axq
+delete platform/SUNW,Sun-Fire-15000/kernel/drv/sparcv9/dman
+delete platform/SUNW,Sun-Fire-15000/kernel/drv/sparcv9/iosram
+delete platform/SUNW,Sun-Fire-15000/kernel/drv/sparcv9/schpc
+rmdir platform/SUNW,Sun-Fire-15000/kernel/drv/sparcv9
+rmdir platform/SUNW,Sun-Fire-15000/kernel/drv
+delete platform/SUNW,Sun-Fire-15000/kernel/misc/sparcv9/mboxsc
+delete platform/SUNW,Sun-Fire-15000/kernel/misc/sparcv9/platmod
+delete platform/SUNW,Sun-Fire-15000/kernel/misc/sparcv9/scosmb
+rmdir platform/SUNW,Sun-Fire-15000/kernel/misc/sparcv9
+rmdir platform/SUNW,Sun-Fire-15000/kernel/misc
+delete platform/SUNW,Sun-Fire-15000/kernel/sparcv9/unix
+rmdir platform/SUNW,Sun-Fire-15000/kernel/sparcv9
+rmdir platform/SUNW,Sun-Fire-15000/kernel
+rmdir platform/SUNW,Sun-Fire-15000

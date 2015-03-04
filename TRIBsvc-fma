@@ -48,3 +48,13 @@ linkdel usr/lib/fm/amd64/llib-lfmevent.ln
 linkdel usr/lib/fm/sparcv9/llib-lfmevent.ln
 linkdel usr/lib/fm/llib-lfmevent
 linkdel usr/lib/fm/llib-lfmevent.ln
+delete usr/platform/SUNW,Sun-Fire-15000/lib/fm/topo/plugins/ioboard.so
+rmdir usr/platform/SUNW,Sun-Fire-15000/lib/fm/topo/plugins
+delete usr/platform/SUNW,Sun-Fire-15000/lib/fm/topo/maps/Sun-Fire-15000-hc-topology.xml
+rmdir usr/platform/SUNW,Sun-Fire-15000/lib/fm/topo/maps
+rmdir usr/platform/SUNW,Sun-Fire-15000/lib/fm/topo
+delete usr/platform/SUNW,Sun-Fire-15000/lib/fm/eft/SUNW,Sun-Fire-15000.eft
+rmdir usr/platform/SUNW,Sun-Fire-15000/lib/fm/eft
+rmdir usr/platform/SUNW,Sun-Fire-15000/lib/fm
+rmdir usr/platform/SUNW,Sun-Fire-15000/lib
+rmdir usr/platform/SUNW,Sun-Fire-15000

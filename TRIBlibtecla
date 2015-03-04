@@ -1,3 +1,4 @@
 delete usr/lib/amd64/llib-ltecla.ln
+delete usr/lib/sparcv9/llib-ltecla.ln
 delete usr/lib/llib-ltecla
 delete usr/lib/llib-ltecla.ln

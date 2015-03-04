@@ -1,4 +1,5 @@
 delete lib/fm/amd64/llib-lfmevent.ln
+delete lib/fm/sparcv9/llib-lfmevent.ln
 delete lib/fm/llib-lfmevent
 delete lib/fm/llib-lfmevent.ln
 delete usr/lib/fm/amd64/llib-ldiagcode.ln
@@ -11,6 +12,18 @@ delete usr/lib/fm/amd64/llib-lfmd_snmp.ln
 delete usr/lib/fm/amd64/llib-lfmnotify.ln
 delete usr/lib/fm/amd64/llib-lseslog.ln
 delete usr/lib/fm/amd64/llib-ltopo.ln
+delete usr/lib/fm/sparcv9/llib-ldiagcode.ln
+delete usr/lib/fm/sparcv9/llib-ldiskstatus.ln
+delete usr/lib/fm/sparcv9/llib-lfmd_adm.ln
+delete usr/lib/fm/sparcv9/llib-lfmd_agent.ln
+delete usr/lib/fm/sparcv9/llib-lfmd_log.ln
+delete usr/lib/fm/sparcv9/llib-lfmd_msg.ln
+delete usr/lib/fm/sparcv9/llib-lfmd_snmp.ln
+delete usr/lib/fm/sparcv9/llib-lfmnotify.ln
+delete usr/lib/fm/sparcv9/llib-lldom.ln
+delete usr/lib/fm/sparcv9/llib-lmdesc.ln
+delete usr/lib/fm/sparcv9/llib-lseslog.ln
+delete usr/lib/fm/sparcv9/llib-ltopo.ln
 delete usr/lib/fm/llib-ldiagcode
 delete usr/lib/fm/llib-ldiagcode.ln
 delete usr/lib/fm/llib-ldiskstatus
@@ -32,5 +45,6 @@ delete usr/lib/fm/llib-lseslog.ln
 delete usr/lib/fm/llib-ltopo
 delete usr/lib/fm/llib-ltopo.ln
 linkdel usr/lib/fm/amd64/llib-lfmevent.ln
+linkdel usr/lib/fm/sparcv9/llib-lfmevent.ln
 linkdel usr/lib/fm/llib-lfmevent
 linkdel usr/lib/fm/llib-lfmevent.ln

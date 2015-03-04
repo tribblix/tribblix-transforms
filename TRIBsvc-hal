@@ -1,5 +1,7 @@
 delete usr/lib/amd64/llib-lhal-storage.ln
 delete usr/lib/amd64/llib-lhal.ln
+delete usr/lib/sparcv9/llib-lhal-storage.ln
+delete usr/lib/sparcv9/llib-lhal.ln
 delete usr/lib/llib-lhal
 delete usr/lib/llib-lhal-storage
 delete usr/lib/llib-lhal-storage.ln

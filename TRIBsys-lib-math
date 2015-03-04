@@ -1,6 +1,8 @@
 delete lib/amd64/llib-lm.ln
+delete lib/sparcv9/llib-lm.ln
 delete lib/llib-lm
 delete lib/llib-lm.ln
 linkdel usr/lib/amd64/llib-lm.ln
+linkdel usr/lib/sparcv9/llib-lm.ln
 linkdel usr/lib/llib-lm
 linkdel usr/lib/llib-lm.ln

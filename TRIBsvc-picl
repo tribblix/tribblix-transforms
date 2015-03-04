@@ -1,4 +1,5 @@
 delete usr/lib/amd64/llib-lpicl.ln
+delete usr/lib/sparcv9/llib-lpicl.ln
 delete usr/lib/llib-lpicl
 delete usr/lib/llib-lpicl.ln
 delete usr/lib/llib-lpicld_pluginutil

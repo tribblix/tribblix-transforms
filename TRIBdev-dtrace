@@ -1,3 +1,4 @@
 delete usr/lib/amd64/llib-ldtrace.ln
+delete usr/lib/sparcv9/llib-ldtrace.ln
 delete usr/lib/llib-ldtrace
 delete usr/lib/llib-ldtrace.ln

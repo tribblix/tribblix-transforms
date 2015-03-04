@@ -1,3 +1,4 @@
 delete usr/lib/amd64/llib-ldns_sd.ln
+delete usr/lib/sparcv9/llib-ldns_sd.ln
 delete usr/lib/llib-ldns_sd
 delete usr/lib/llib-ldns_sd.ln

@@ -1,2 +1,3 @@
 delete kernel/fs/amd64/cachefs
+delete kernel/fs/sparcv9/cachefs
 delete kernel/fs/cachefs

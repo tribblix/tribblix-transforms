@@ -1,3 +1,4 @@
 delete usr/lib/amd64/llib-lbe.ln
+delete usr/lib/sparcv9/llib-lbe.ln
 delete usr/lib/llib-lbe
 delete usr/lib/llib-lbe.ln

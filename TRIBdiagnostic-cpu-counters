@@ -1,0 +1,8 @@
+delete usr/lib/amd64/llib-lcpc.ln
+delete usr/lib/sparcv9/llib-lcpc.ln
+delete usr/lib/amd64/llib-lpctx.ln
+delete usr/lib/sparcv9/llib-lpctx.ln
+delete usr/lib/llib-lcpc
+delete usr/lib/llib-lcpc.ln
+delete usr/lib/llib-lpctx
+delete usr/lib/llib-lpctx.ln

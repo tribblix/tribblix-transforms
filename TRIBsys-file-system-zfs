@@ -14,3 +14,4 @@ linkdel usr/lib/llib-lzfs
 linkdel usr/lib/llib-lzfs.ln
 linkdel usr/lib/llib-lzfs_core
 linkdel usr/lib/llib-lzfs_core.ln
+undepend TRIBpython-26

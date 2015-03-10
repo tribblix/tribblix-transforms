@@ -88,3 +88,4 @@ replace etc/profile
 replace etc/.login
 delete etc/svc/profile/platform_SUNW,Ultra-Enterprise-10000.xml
 delete etc/svc/profile/platform_SUNW,Sun-Fire-15000.xml
+undepend TRIBsys-net-mailwrapper

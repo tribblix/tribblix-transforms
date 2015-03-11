@@ -84,6 +84,10 @@ linkdel usr/sbin/cachefswssize
 linkdel usr/sbin/cfsadmin
 delete etc/init.d/cachefs.daemon
 linkdel etc/rc2.d/S73cachefs.daemon
+delete var/sadm/system/admin/default_java
+rmdir var/sadm/system/admin
+rmdir var/sadm/system
+rmdir var/sadm
 replace etc/profile
 replace etc/.login
 delete etc/svc/profile/platform_SUNW,Ultra-Enterprise-10000.xml

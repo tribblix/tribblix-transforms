@@ -1,3 +1,5 @@
+delete usr/bin/tpmadm
+delete usr/share/man/man1m/tpmadm.1m
 delete usr/lib/devfsadm/linkmod/SUNW_md_link.so
 modify etc/nsswitch.conf /^hosts/s:\(.*\):\1 dns:
 modify etc/nsswitch.conf /^ipnodes/s:\(.*\):\1 dns:
@@ -93,3 +95,4 @@ replace etc/.login
 delete etc/svc/profile/platform_SUNW,Ultra-Enterprise-10000.xml
 delete etc/svc/profile/platform_SUNW,Sun-Fire-15000.xml
 undepend TRIBsys-net-mailwrapper
+rrmdir usr/lib/help

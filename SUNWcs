@@ -79,6 +79,7 @@ delete usr/share/man/man1m/cachefswssize.1m
 delete usr/share/man/man1m/fsck_cachefs.1m
 delete usr/share/man/man1m/mount_cachefs.1m
 delete usr/share/man/man1m/cfsadmin.1m
+delete usr/share/man/man4/packingrules.4
 linkdel usr/bin/cachefspack
 linkdel usr/bin/cachefsstat
 linkdel usr/sbin/cachefslog

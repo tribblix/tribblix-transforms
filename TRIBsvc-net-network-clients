@@ -1,0 +1,4 @@
+delete usr/sbin/spray
+delete usr/share/man/man1m/spray.1m
+delete usr/bin/filesync
+delete usr/share/man/man1/filesync.1

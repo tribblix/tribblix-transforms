@@ -1,0 +1,10 @@
+linkdel etc/rc2.d/S72autoinstall
+delete etc/init.d/autoinstall
+rmdir etc/init.d
+rmdir etc/rc2.d
+rmdir etc
+delete var/sadm/README
+linkdel sbin/bpgetfile
+rmdir sbin
+linkdel var/sadm/softinfo/INST_RELEASE
+rmdir var/sadm/softinfo

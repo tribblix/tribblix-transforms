@@ -95,6 +95,11 @@ rmdir var/sadm/system
 rmdir var/sadm
 replace etc/profile
 replace etc/.login
+replace etc/passwd
+replace etc/shadow
+replace etc/inet/hosts
+replace root/.bashrc
+replace root/.profile
 delete etc/svc/profile/platform_SUNW,Ultra-Enterprise-10000.xml
 delete etc/svc/profile/platform_SUNW,Sun-Fire-15000.xml
 undepend TRIBsys-net-mailwrapper

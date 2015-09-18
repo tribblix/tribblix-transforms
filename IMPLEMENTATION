@@ -55,6 +55,11 @@ rename pathname newname
 
 The file named pathname will instead be delivered as newname.
 
+type pathname newtype
+
+The ftype associated with pathname will be set to newtype. Generally
+only useful for converting between e, v, and f.
+
 depend package
 
 Add a dependency on package.

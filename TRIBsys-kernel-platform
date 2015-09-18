@@ -40,3 +40,5 @@ delete platform/SUNW,Sun-Fire-15000/kernel/sparcv9/unix
 rmdir platform/SUNW,Sun-Fire-15000/kernel/sparcv9
 rmdir platform/SUNW,Sun-Fire-15000/kernel
 rmdir platform/SUNW,Sun-Fire-15000
+type platform/i86pc/ucode/intel-ucode.txt f
+type platform/i86pc/ucode/amd-ucode.bin f

@@ -104,3 +104,4 @@ delete etc/svc/profile/platform_SUNW,Ultra-Enterprise-10000.xml
 delete etc/svc/profile/platform_SUNW,Sun-Fire-15000.xml
 undepend TRIBsys-net-mailwrapper
 rrmdir usr/lib/help
+type etc/init.d/README f

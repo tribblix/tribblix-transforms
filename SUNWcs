@@ -105,3 +105,9 @@ delete etc/svc/profile/platform_SUNW,Sun-Fire-15000.xml
 undepend TRIBsys-net-mailwrapper
 rrmdir usr/lib/help
 type etc/init.d/README f
+linkdel usr/has/bin/jsh
+linkdel usr/has/bin/pfsh
+linkdel usr/has/lib/rsh
+rmdir usr/has/lib
+delete usr/has/man/man1has/sh.1has
+delete usr/has/bin/sh

@@ -1,0 +1,5 @@
+delete etc/flash/precreation/caplib
+rmdir etc/flash/preexit
+rmdir etc/flash/precreation
+rmdir etc/flash/postcreation
+rmdir etc/flash

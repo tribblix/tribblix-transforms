@@ -130,3 +130,5 @@ linkdel usr/sbin/quot
 delete usr/lib/fs/ufs/quot
 delete usr/share/man/man1m/quot.1m
 rmdir usr/share/src
+delete usr/bin/crypt
+delete usr/share/man/man1/crypt.1

@@ -1,2 +1,8 @@
 delete usr/bin/news
 delete usr/share/man/man1/news.1
+linkdel usr/bin/pcat
+delete usr/bin/pack
+delete usr/bin/unpack
+linkdel usr/share/man/man1/pcat.1
+linkdel usr/share/man/man1/unpack.1
+delete usr/share/man/man1/pack.1

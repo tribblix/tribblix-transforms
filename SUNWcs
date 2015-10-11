@@ -132,3 +132,8 @@ delete usr/share/man/man1m/quot.1m
 rmdir usr/share/src
 delete usr/bin/crypt
 delete usr/share/man/man1/crypt.1
+delete usr/bin/sparcv9/setuname
+delete usr/bin/amd64/setuname
+delete usr/bin/i86/setuname
+delete usr/share/man/man1m/setuname.1m
+linkdel usr/bin/setuname

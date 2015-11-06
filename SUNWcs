@@ -141,3 +141,5 @@ delete usr/bin/addbadsec
 delete usr/share/man/man1m/addbadsec.1m
 delete usr/bin/diskscan
 delete usr/share/man/man1m/diskscan.1m
+delete usr/bin/logins
+delete usr/share/man/man1m/logins.1m

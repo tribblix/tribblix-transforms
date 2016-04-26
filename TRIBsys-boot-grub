@@ -1,2 +1,3 @@
 delete lib/llib-lgrubmgmt
 delete lib/llib-lgrubmgmt.ln
+delete boot/grub/splash.xpm.gz

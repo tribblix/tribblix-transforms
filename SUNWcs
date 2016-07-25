@@ -111,6 +111,16 @@ linkdel usr/has/lib/rsh
 rmdir usr/has/lib
 delete usr/has/man/man1has/sh.1has
 delete usr/has/bin/sh
+linkdel usr/bin/edit
+linkdel usr/bin/vedit
+linkdel usr/share/man/man1/edit.1
+linkdel usr/share/man/man1/vedit.1
+linkdel usr/has/bin/vedit
+linkdel usr/has/bin/view
+linkdel usr/has/bin/vi
+linkdel usr/has/bin/ex
+delete usr/has/bin/edit
+rrmdir usr/has
 linkdel etc/ff
 linkdel etc/ncheck
 linkdel usr/sbin/ncheck

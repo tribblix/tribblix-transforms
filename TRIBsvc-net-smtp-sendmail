@@ -2,3 +2,4 @@ delete usr/lib/llib-lmilter
 delete usr/lib/llib-lmilter.ln
 delete usr/bin/mailcompat
 delete usr/share/man/man1/mailcompat.1
+rrmdir usr/lib/help

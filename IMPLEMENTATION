@@ -30,6 +30,10 @@ rmdir pathname
 
 Like delete, but for a directory, which must be empty.
 
+rrmdir pathname
+
+Recursively delete a directory and all its contents.
+
 restart fmri
 
 The named fmri is added to the list of services to be restarted at
@@ -46,6 +50,10 @@ add pathname owner=x group=y modez
 The pathname is added to the package. It's up to the caller to work out
 where to get the contents of the file from (whether from the installed
 system or the proto area)
+
+mkdir pathname owner=x group=y modez
+
+The directory is added to the package.
 
 hardlink pathname target
 
@@ -78,6 +86,6 @@ where you don't want it and add it to the package where you do.
 
 To delete a directory, first delete all the files it contains and then
 delete the directory. There is no automatic deletion of directories
-that become empty if all their contents are removed.
+that become empty if all their contents are removed, unless rrmdir is used.
 
 The rename action only works on files.

@@ -5,6 +5,8 @@ modify etc/nsswitch.conf /^hosts/s:\(.*\):\1 dns:
 modify etc/nsswitch.conf /^ipnodes/s:\(.*\):\1 dns:
 modify etc/nsswitch.ldap /^hosts/s:\(.*\):\1 dns:
 modify etc/nsswitch.ldap /^ipnodes/s:\(.*\):\1 dns:
+modify etc/nsswitch.files /^hosts/s:\(.*\):\1 dns:
+modify etc/nsswitch.files /^ipnodes/s:\(.*\):\1 dns:
 add usr/share/man/man1/finger.1 group=bin mode=0444 owner=root
 add usr/bin/finger group=bin mode=0555 owner=root
 linkdel usr/share/man/man1/i286.1

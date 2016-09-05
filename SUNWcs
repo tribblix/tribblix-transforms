@@ -155,3 +155,7 @@ delete usr/bin/diskscan
 delete usr/share/man/man1m/diskscan.1m
 delete usr/bin/logins
 delete usr/share/man/man1m/logins.1m
+delete usr/bin/csh
+delete usr/share/man/man1/csh.1
+symlink usr/bin/csh target=tcsh
+symlink usr/share/man/man1/csh.1 target=tcsh.1

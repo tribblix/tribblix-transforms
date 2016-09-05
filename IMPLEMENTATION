@@ -45,19 +45,19 @@ The contents of the file are modified in-place using gsed. This is
 equivalent to
   gsed -i 'script' pathname
 
-add pathname owner=x group=y modez
+add pathname owner=x group=y mode=z
 
 The pathname is added to the package. It's up to the caller to work out
 where to get the contents of the file from (whether from the installed
 system or the proto area)
 
-mkdir pathname owner=x group=y modez
+mkdir pathname owner=x group=y mode=z
 
 The directory is added to the package.
 
-hardlink pathname target
+symlink pathname target=z
 
-The pathname is added, as a hard link to the specified target.
+The pathname is added, as a link to the specified target.
 
 rename pathname newname
 

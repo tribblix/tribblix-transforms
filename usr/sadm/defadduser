@@ -1,0 +1,17 @@
+#	Default values for useradd.  Changed Wed Sep  7 14:01:26 2016
+
+defgroup=1
+defgname=other
+defparent=/export/home
+defskel=/etc/skel
+defshell=/bin/bash
+definact=0
+defexpire=
+defauthorization=
+defrole=
+defprofile=
+defproj=3
+defprojname=default
+deflimitpriv=
+defdefaultpriv=
+deflock_after_retries=

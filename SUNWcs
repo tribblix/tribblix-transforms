@@ -19,6 +19,7 @@ delete usr/share/man/man4/wanboot.conf.4
 delete etc/inet/wanboot.conf.sample
 replace etc/profile
 replace etc/.login
+replace etc/group
 replace etc/passwd
 replace etc/shadow
 replace etc/inet/hosts

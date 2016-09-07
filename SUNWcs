@@ -84,5 +84,5 @@ symlink usr/share/man/man1/csh.1 target=tcsh.1
 delete etc/skel/local.cshrc
 delete etc/skel/local.login
 delete etc/skel/local.profile
-add etc/skel/.bashrc
-add usr/sadm/defadduser
+add etc/skel/.bashrc owner=root group=other mode=0644
+add usr/sadm/defadduser owner=root group=root mode=0644

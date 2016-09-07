@@ -48,8 +48,12 @@ equivalent to
 add pathname owner=x group=y mode=z
 
 The pathname is added to the package. It's up to the caller to work out
-where to get the contents of the file from (whether from the installed
-system or the proto area)
+where to get the contents of the file from (whether from the proto area
+or this transform repo)
+
+replace pathname
+
+The file at pathname is replaced by a copy sourced from this transfrom repo
 
 mkdir pathname owner=x group=y mode=z
 

@@ -53,7 +53,7 @@ or this transform repo)
 
 replace pathname
 
-The file at pathname is replaced by a copy sourced from this transfrom repo
+The file at pathname is replaced by a copy sourced from this transform repo
 
 mkdir pathname owner=x group=y mode=z
 

@@ -1,5 +1,6 @@
 delete lib/amd64/llib-ladm.ln
 delete lib/amd64/llib-laio.ln
+delete lib/amd64/llib-lavl.ln
 delete lib/amd64/llib-lbsm.ln
 delete lib/amd64/llib-lc.ln
 delete lib/amd64/llib-lc_db.ln
@@ -27,6 +28,7 @@ delete lib/amd64/llib-lmd5.ln
 delete lib/amd64/llib-lnsl.ln
 delete lib/amd64/llib-lnvpair.ln
 delete lib/amd64/llib-lpam.ln
+delete lib/amd64/llib-lproc.ln
 delete lib/amd64/llib-lpthread.ln
 delete lib/amd64/llib-lrcm.ln
 delete lib/amd64/llib-lresolv.ln
@@ -49,6 +51,7 @@ delete lib/amd64/llib-luutil.ln
 delete lib/amd64/llib-lxnet.ln
 delete lib/sparcv9/llib-ladm.ln
 delete lib/sparcv9/llib-laio.ln
+delete lib/sparcv9/llib-lavl.ln
 delete lib/sparcv9/llib-lbsm.ln
 delete lib/sparcv9/llib-lc.ln
 delete lib/sparcv9/llib-lc_db.ln
@@ -75,6 +78,7 @@ delete lib/sparcv9/llib-lmd5.ln
 delete lib/sparcv9/llib-lnsl.ln
 delete lib/sparcv9/llib-lnvpair.ln
 delete lib/sparcv9/llib-lpam.ln
+delete lib/sparcv9/llib-lproc.ln
 delete lib/sparcv9/llib-lpthread.ln
 delete lib/sparcv9/llib-lrcm.ln
 delete lib/sparcv9/llib-lresolv.ln
@@ -98,6 +102,8 @@ delete lib/llib-ladm
 delete lib/llib-ladm.ln
 delete lib/llib-laio
 delete lib/llib-laio.ln
+delete lib/llib-lavl
+delete lib/llib-lavl.ln
 delete lib/llib-lbsm
 delete lib/llib-lbsm.ln
 delete lib/llib-lc
@@ -154,6 +160,8 @@ delete lib/llib-lnwam
 delete lib/llib-lnwam.ln
 delete lib/llib-lpam
 delete lib/llib-lpam.ln
+delete lib/llib-lproc
+delete lib/llib-lproc.ln
 delete lib/llib-lpthread
 delete lib/llib-lpthread.ln
 delete lib/llib-lrcm
@@ -192,7 +200,9 @@ delete lib/llib-luuid
 delete lib/llib-luuid.ln
 delete lib/llib-lxnet
 delete lib/llib-lxnet.ln
+delete usr/lib/amd64/llib-lads.ln
 delete usr/lib/amd64/llib-ladutils.ln
+delete usr/lib/amd64/llib-lavl.ln
 delete usr/lib/amd64/llib-lbsdmalloc.ln
 delete usr/lib/amd64/llib-lcfgadm.ln
 delete usr/lib/amd64/llib-lcommputil.ln
@@ -229,7 +239,9 @@ delete usr/lib/amd64/llib-lsmbios.ln
 delete usr/lib/amd64/llib-lvolmgt.ln
 delete usr/lib/amd64/llib-lwrap.ln
 delete usr/lib/amd64/llib-lzoneinfo.ln
+delete usr/lib/sparcv9/llib-lads.ln
 delete usr/lib/sparcv9/llib-ladutils.ln
+delete usr/lib/sparcv9/llib-lavl.ln
 delete usr/lib/sparcv9/llib-lbsdmalloc.ln
 delete usr/lib/sparcv9/llib-lcfgadm.ln
 delete usr/lib/sparcv9/llib-lcommputil.ln
@@ -267,8 +279,12 @@ delete usr/lib/sparcv9/llib-lv12n.ln
 delete usr/lib/sparcv9/llib-lvolmgt.ln
 delete usr/lib/sparcv9/llib-lwrap.ln
 delete usr/lib/sparcv9/llib-lzoneinfo.ln
+delete usr/lib/llib-lads
+delete usr/lib/llib-lads.ln
 delete usr/lib/llib-ladutils
 delete usr/lib/llib-ladutils.ln
+delete usr/lib/llib-lavl
+delete usr/lib/llib-lavl.ln
 delete usr/lib/llib-lbsdmalloc
 delete usr/lib/llib-lbsdmalloc.ln
 delete usr/lib/llib-lcfgadm

@@ -6,3 +6,7 @@ delete usr/bin/unpack
 linkdel usr/share/man/man1/pcat.1
 linkdel usr/share/man/man1/unpack.1
 delete usr/share/man/man1/pack.1
+delete usr/bin/calendar
+delete usr/share/man/man1/calendar.1
+rrmdir usr/lib/adb
+delete usr/share/man/man1m/adbgen.1m

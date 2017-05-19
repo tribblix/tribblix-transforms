@@ -87,3 +87,35 @@ delete etc/skel/local.login
 delete etc/skel/local.profile
 add etc/skel/.bashrc owner=root group=other mode=0644
 add usr/sadm/defadduser owner=root group=root mode=0644
+linkdel etc/wall
+delete usr/sbin/wall
+delete usr/share/man/man1m/wall.1m
+delete usr/lib/calprog
+delete usr/sbin/syncstat
+delete usr/share/man/man1m/syncstat.1m
+delete usr/sbin/syncloop
+delete usr/share/man/man1m/syncloop.1m
+delete usr/sbin/syncinit
+delete usr/share/man/man1m/syncinit.1m
+delete usr/bin/devfree
+delete usr/share/man/man1m/devfree.1m
+delete usr/bin/devreserv
+delete usr/share/man/man1m/devreserv.1m
+delete usr/bin/devattr
+delete usr/share/man/man1m/devattr.1m
+delete usr/bin/getdev
+delete usr/share/man/man1m/getdev.1m
+delete usr/bin/putdev
+delete usr/share/man/man1m/putdev.1m
+delete usr/bin/getvol
+delete usr/share/man/man1m/getvol.1m
+delete usr/bin/getdgrp
+delete usr/share/man/man1m/getdgrp.1m
+delete usr/bin/putdgrp
+delete usr/share/man/man1m/putdgrp.1m
+delete usr/bin/listdgrp
+delete usr/share/man/man1m/listdgrp.1m
+delete usr/bin/amd64/amt
+delete usr/bin/amt
+delete usr/bin/i86/amt
+delete usr/share/man/man1/amt.1

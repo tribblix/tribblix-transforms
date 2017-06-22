@@ -4,3 +4,7 @@ delete usr/bin/filesync
 delete usr/share/man/man1/filesync.1
 delete usr/sbin/rwall
 delete usr/share/man/man1m/rwall.1m
+delete usr/bin/whois
+delete usr/sbin/snoop
+delete usr/share/man/man1/whois.1
+delete usr/share/man/man1m/snoop.1m

@@ -119,3 +119,7 @@ delete usr/bin/amd64/amt
 delete usr/bin/amt
 delete usr/bin/i86/amt
 delete usr/share/man/man1/amt.1
+add usr/bin/whois
+add usr/sbin/snoop
+add usr/share/man/man1/whois.1
+add usr/share/man/man1m/snoop.1m

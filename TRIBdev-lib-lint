@@ -27,6 +27,7 @@ delete lib/amd64/llib-lmd.ln
 delete lib/amd64/llib-lmd5.ln
 delete lib/amd64/llib-lnsl.ln
 delete lib/amd64/llib-lnvpair.ln
+delete lib/amd64/llib-lofmt.ln
 delete lib/amd64/llib-lpam.ln
 delete lib/amd64/llib-lproc.ln
 delete lib/amd64/llib-lpthread.ln
@@ -77,6 +78,7 @@ delete lib/sparcv9/llib-lmd.ln
 delete lib/sparcv9/llib-lmd5.ln
 delete lib/sparcv9/llib-lnsl.ln
 delete lib/sparcv9/llib-lnvpair.ln
+delete lib/sparcv9/llib-lofmt.ln
 delete lib/sparcv9/llib-lpam.ln
 delete lib/sparcv9/llib-lproc.ln
 delete lib/sparcv9/llib-lpthread.ln
@@ -158,6 +160,8 @@ delete lib/llib-lnvpair
 delete lib/llib-lnvpair.ln
 delete lib/llib-lnwam
 delete lib/llib-lnwam.ln
+delete lib/llib-lofmt
+delete lib/llib-lofmt.ln
 delete lib/llib-lpam
 delete lib/llib-lpam.ln
 delete lib/llib-lproc

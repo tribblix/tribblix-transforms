@@ -11,15 +11,8 @@ nuucp::9:root
 staff::10:
 daemon::12:root
 sysadmin::14:
-games::20:
 smmsp::25:
-gdm::50:
-upnp::52:
-xvm::60:
 netadm::65:
-mysql::70:
-openldap::75:
-webservd::80:
 sshd::92:
 unknown::96:
 nobody::60001:

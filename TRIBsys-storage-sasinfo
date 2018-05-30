@@ -1,0 +1,4 @@
+delete usr/lib/amd64/llib-lSMHBAAPI.ln
+delete usr/lib/sparcv9/llib-lSMHBAAPI.ln
+delete usr/lib/llib-lSMHBAAPI
+delete usr/lib/llib-lSMHBAAPI.ln

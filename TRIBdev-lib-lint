@@ -206,7 +206,6 @@ delete lib/llib-lxnet
 delete lib/llib-lxnet.ln
 delete usr/lib/amd64/llib-lads.ln
 delete usr/lib/amd64/llib-ladutils.ln
-delete usr/lib/amd64/llib-lavl.ln
 delete usr/lib/amd64/llib-lbsdmalloc.ln
 delete usr/lib/amd64/llib-lcfgadm.ln
 delete usr/lib/amd64/llib-lcommputil.ln
@@ -245,7 +244,6 @@ delete usr/lib/amd64/llib-lwrap.ln
 delete usr/lib/amd64/llib-lzoneinfo.ln
 delete usr/lib/sparcv9/llib-lads.ln
 delete usr/lib/sparcv9/llib-ladutils.ln
-delete usr/lib/sparcv9/llib-lavl.ln
 delete usr/lib/sparcv9/llib-lbsdmalloc.ln
 delete usr/lib/sparcv9/llib-lcfgadm.ln
 delete usr/lib/sparcv9/llib-lcommputil.ln
@@ -287,8 +285,6 @@ delete usr/lib/llib-lads
 delete usr/lib/llib-lads.ln
 delete usr/lib/llib-ladutils
 delete usr/lib/llib-ladutils.ln
-delete usr/lib/llib-lavl
-delete usr/lib/llib-lavl.ln
 delete usr/lib/llib-lbsdmalloc
 delete usr/lib/llib-lbsdmalloc.ln
 delete usr/lib/llib-lcfgadm
@@ -425,6 +421,7 @@ linkdel usr/ccs/lib/llib-ltermlib
 linkdel usr/ccs/lib/llib-ltermlib.ln
 linkdel usr/lib/amd64/llib-ladm.ln
 linkdel usr/lib/amd64/llib-laio.ln
+linkdel usr/lib/amd64/llib-lavl.ln
 linkdel usr/lib/amd64/llib-lbsm.ln
 linkdel usr/lib/amd64/llib-lc.ln
 linkdel usr/lib/amd64/llib-lcontract.ln
@@ -468,6 +465,7 @@ linkdel usr/lib/amd64/llib-luuid.ln
 linkdel usr/lib/amd64/llib-lxnet.ln
 linkdel usr/lib/sparcv9/llib-ladm.ln
 linkdel usr/lib/sparcv9/llib-laio.ln
+linkdel usr/lib/sparcv9/llib-lavl.ln
 linkdel usr/lib/sparcv9/llib-lbsm.ln
 linkdel usr/lib/sparcv9/llib-lc.ln
 linkdel usr/lib/sparcv9/llib-lcontract.ln
@@ -512,6 +510,8 @@ linkdel usr/lib/llib-ladm
 linkdel usr/lib/llib-ladm.ln
 linkdel usr/lib/llib-laio
 linkdel usr/lib/llib-laio.ln
+linkdel usr/lib/llib-lavl
+linkdel usr/lib/llib-lavl.ln
 linkdel usr/lib/llib-lbsm
 linkdel usr/lib/llib-lbsm.ln
 linkdel usr/lib/llib-lc
@@ -592,3 +592,14 @@ linkdel usr/lib/llib-luuid
 linkdel usr/lib/llib-luuid.ln
 linkdel usr/lib/llib-lxnet
 linkdel usr/lib/llib-lxnet.ln
+rmdir lib/amd64
+rmdir lib/sparcv9
+rmdir lib
+rmdir usr/ccs/lib/amd64
+rmdir usr/ccs/lib/sparcv9
+rmdir usr/ccs/lib
+rmdir usr/ccs
+rmdir usr/lib/amd64
+rmdir usr/lib/sparcv9
+rmdir usr/lib
+rmdir usr

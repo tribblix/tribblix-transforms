@@ -1,0 +1,4 @@
+delete usr/lib/amd64/llib-liscsit.ln
+delete usr/lib/sparcv9/llib-liscsit.ln
+delete usr/lib/llib-liscsit
+delete usr/lib/llib-liscsit.ln

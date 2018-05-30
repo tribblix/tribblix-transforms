@@ -1,0 +1,4 @@
+delete usr/lib/amd64/llib-lslp.ln
+delete usr/lib/sparcv9/llib-lslp.ln
+delete usr/lib/llib-lslp
+delete usr/lib/llib-lslp.ln

@@ -1,0 +1,4 @@
+delete usr/lib/amd64/llib-lipd.ln
+delete usr/lib/sparcv9/llib-lipd.ln
+delete usr/lib/llib-lipd
+delete usr/lib/llib-lipd.ln

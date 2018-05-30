@@ -1,0 +1,4 @@
+delete lib/amd64/llib-lMPAPI.ln
+delete lib/sparcv9/llib-lMPAPI.ln
+delete lib/llib-lMPAPI
+delete lib/llib-lMPAPI.ln

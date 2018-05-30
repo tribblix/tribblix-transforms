@@ -1,0 +1,8 @@
+delete usr/lib/amd64/llib-lima.ln
+delete usr/lib/sparcv9/llib-lima.ln
+delete usr/lib/amd64/llib-lsun_ima.ln
+delete usr/lib/sparcv9/llib-lsun_ima.ln
+delete usr/lib/llib-lima
+delete usr/lib/llib-lima.ln
+delete usr/lib/llib-lsun_ima
+delete usr/lib/llib-lsun_ima.ln

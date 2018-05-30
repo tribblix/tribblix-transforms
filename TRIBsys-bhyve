@@ -1,0 +1,4 @@
+delete usr/lib/llib-lppt.ln
+delete usr/lib/amd64/llib-lppt.ln
+delete usr/lib/llib-lppt
+delete lib/amd64/llib-lvmmapi.ln

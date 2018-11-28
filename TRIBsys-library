@@ -6,3 +6,4 @@ rmdir etc/flash
 mkdir usr/share/man/man3proc group=bin mode=0755 owner=root
 mkdir usr/share/man/man4 group=bin mode=0755 owner=root
 rrmdir usr/lib/python2.6
+rrmdir usr/lib/python2.7

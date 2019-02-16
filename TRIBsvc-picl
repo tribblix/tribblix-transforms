@@ -6,3 +6,4 @@ delete usr/lib/llib-lpicld_pluginutil
 delete usr/lib/llib-lpicld_pluginutil.ln
 delete usr/lib/llib-lpicltree
 delete usr/lib/llib-lpicltree.ln
+rrmdir usr/platform/SUNW,Netra-CP2300

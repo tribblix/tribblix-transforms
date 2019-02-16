@@ -10,3 +10,7 @@ linkdel usr/platform/SUNW,Sun-Fire-15000/lib/fs
 linkdel usr/platform/SUNW,Sun-Fire-15000/sbin
 rmdir usr/platform/SUNW,Sun-Fire-15000/lib
 rmdir usr/platform/SUNW,Sun-Fire-15000
+rrmdir usr/platform/SUNW,UltraSPARC-IIe-NetraCT-60
+rrmdir usr/platform/SUNW,UltraSPARC-IIe-NetraCT-40
+rrmdir usr/platform/SUNW,UltraSPARC-IIi-Netract
+rrmdir usr/platform/SUNW,Netra-CP2300

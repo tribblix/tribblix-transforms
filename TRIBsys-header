@@ -10,3 +10,9 @@ rmdir usr/platform/SUNW,Ultra-Enterprise-10000
 linkdel usr/platform/SUNW,Sun-Fire-15000/include
 rmdir usr/platform/SUNW,Sun-Fire-15000
 delete usr/platform/sun4u/include/sys/cvc.h
+linkdel usr/platform/SUNW,UltraSPARC-IIe-NetraCT-40/include
+rmdir usr/platform/SUNW,UltraSPARC-IIe-NetraCT-40
+linkdel usr/platform/SUNW,UltraSPARC-IIe-NetraCT-60/include
+rmdir usr/platform/SUNW,UltraSPARC-IIe-NetraCT-60
+linkdel usr/platform/SUNW,UltraSPARC-IIi-Netract/include
+rmdir usr/platform/SUNW,UltraSPARC-IIi-Netract

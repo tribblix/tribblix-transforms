@@ -123,3 +123,6 @@ add usr/bin/whois group=bin mode=0555 owner=root
 add usr/sbin/snoop group=bin mode=0555 owner=root
 add usr/share/man/man1/whois.1 group=bin mode=0444 owner=root
 add usr/share/man/man1m/snoop.1m group=bin mode=0444 owner=root
+linkdel etc/svc/profile/platform_SUNW,UltraSPARC-IIe-NetraCT-40.xml
+linkdel etc/svc/profile/platform_SUNW,UltraSPARC-IIe-NetraCT-60.xml
+delete etc/svc/profile/platform_SUNW,UltraSPARC-IIi-Netract.xml

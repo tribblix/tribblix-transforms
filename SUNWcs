@@ -127,3 +127,9 @@ linkdel etc/svc/profile/platform_SUNW,UltraSPARC-IIe-NetraCT-40.xml
 linkdel etc/svc/profile/platform_SUNW,UltraSPARC-IIe-NetraCT-60.xml
 delete etc/svc/profile/platform_SUNW,UltraSPARC-IIi-Netract.xml
 rrmdir usr/share/doc/ksh
+linkdel usr/bin/strerr
+linkdel usr/bin/strclean
+delete usr/sbin/strerr
+delete usr/sbin/strclean
+delete usr/share/man/man1m/strerr.1m
+delete usr/share/man/man1m/strclean.1m

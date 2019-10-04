@@ -1,0 +1,1 @@
+modify lib/svc/manifest/system/boot-archive.xml s/cpio/hsfs/

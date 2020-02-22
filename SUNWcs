@@ -133,3 +133,15 @@ delete usr/sbin/strerr
 delete usr/sbin/strclean
 delete usr/share/man/man1m/strerr.1m
 delete usr/share/man/man1m/strclean.1m
+linkdel usr/bin/i86/encrypt
+linkdel usr/bin/i86/mac
+delete usr/bin/i86/decrypt
+delete usr/bin/i86/digest
+delete usr/bin/i86/newtask
+delete usr/bin/i86/nohup
+delete usr/bin/i86/prctl
+delete usr/bin/i86/prstat
+delete usr/bin/i86/ps
+delete usr/bin/i86/savecore
+linkdel usr/bin/i86/w
+delete usr/bin/i86/uptime

@@ -6,3 +6,4 @@ delete usr/lib/llib-lcpc
 delete usr/lib/llib-lcpc.ln
 delete usr/lib/llib-lpctx
 delete usr/lib/llib-lpctx.ln
+delete usr/bin/i86/cputrack

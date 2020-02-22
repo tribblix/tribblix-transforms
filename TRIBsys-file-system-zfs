@@ -17,3 +17,4 @@ linkdel usr/lib/llib-lzfs_core.ln
 undepend TRIBpython-26
 rrmdir usr/lib/python2.6
 rrmdir usr/lib/python2.7
+rrmdir usr/sbin/i86

@@ -10,3 +10,4 @@ delete usr/bin/calendar
 delete usr/share/man/man1/calendar.1
 rrmdir usr/lib/adb
 delete usr/share/man/man1m/adbgen.1m
+rrmdir usr/bin/i86

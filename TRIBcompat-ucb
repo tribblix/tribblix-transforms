@@ -1,1 +1,3 @@
 delete usr/share/man/man1b/exportfs.1b
+linkdel usr/ucb/i86/ps
+rmdir usr/ucb/i86

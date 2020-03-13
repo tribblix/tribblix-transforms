@@ -16,3 +16,5 @@ linkdel usr/platform/SUNW,UltraSPARC-IIe-NetraCT-60/include
 rmdir usr/platform/SUNW,UltraSPARC-IIe-NetraCT-60
 linkdel usr/platform/SUNW,UltraSPARC-IIi-Netract/include
 rmdir usr/platform/SUNW,UltraSPARC-IIi-Netract
+linkdel usr/platform/SUNW,Ultra-Enterprise/include
+rmdir usr/platform/SUNW,Ultra-Enterprise

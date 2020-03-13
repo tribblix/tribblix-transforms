@@ -14,3 +14,12 @@ rrmdir usr/platform/SUNW,UltraSPARC-IIe-NetraCT-60
 rrmdir usr/platform/SUNW,UltraSPARC-IIe-NetraCT-40
 rrmdir usr/platform/SUNW,UltraSPARC-IIi-Netract
 rrmdir usr/platform/SUNW,Netra-CP2300
+rrmdir usr/platform/SUNW,Ultra-Enterprise
+linkdel usr/platform/sun4u/lib/cfgadm/ac.so
+delete usr/platform/sun4u/lib/cfgadm/ac.so.1
+linkdel usr/platform/sun4u/lib/cfgadm/sparcv9/ac.so
+delete usr/platform/sun4u/lib/cfgadm/sparcv9/ac.so.1
+linkdel usr/platform/sun4u/lib/cfgadm/sysctrl.so
+delete usr/platform/sun4u/lib/cfgadm/sysctrl.so.1
+linkdel usr/platform/sun4u/lib/cfgadm/sparcv9/sysctrl.so
+delete usr/platform/sun4u/lib/cfgadm/sparcv9/sysctrl.so.1

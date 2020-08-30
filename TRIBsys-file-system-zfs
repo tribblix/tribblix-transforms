@@ -18,3 +18,5 @@ undepend TRIBpython-26
 rrmdir usr/lib/python2.6
 rrmdir usr/lib/python2.7
 rrmdir usr/sbin/i86
+linkdel usr/lib/libzfs_jni.so
+delete usr/lib/libzfs_jni.so.1

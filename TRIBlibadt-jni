@@ -1,3 +1,5 @@
 delete usr/lib/amd64/llib-ladt_jni.ln
 delete usr/lib/sparcv9/llib-ladt_jni.ln
 delete usr/lib/llib-ladt_jni.ln
+linkdel usr/lib/libadt_jni.so
+delete usr/lib/libadt_jni.so.1

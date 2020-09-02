@@ -145,3 +145,4 @@ delete usr/bin/i86/ps
 delete usr/bin/i86/savecore
 linkdel usr/bin/i86/w
 delete usr/bin/i86/uptime
+replace lib/svc/method/rmtmpfiles

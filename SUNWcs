@@ -146,3 +146,5 @@ delete usr/bin/i86/savecore
 linkdel usr/bin/i86/w
 delete usr/bin/i86/uptime
 replace lib/svc/method/rmtmpfiles
+delete usr/bin/kvmstat
+delete usr/share/man/man1/kvmstat.1

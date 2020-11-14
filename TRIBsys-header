@@ -18,3 +18,4 @@ linkdel usr/platform/SUNW,UltraSPARC-IIi-Netract/include
 rmdir usr/platform/SUNW,UltraSPARC-IIi-Netract
 linkdel usr/platform/SUNW,Ultra-Enterprise/include
 rmdir usr/platform/SUNW,Ultra-Enterprise
+delete usr/include/sip.h

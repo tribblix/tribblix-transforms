@@ -16,3 +16,11 @@ linkdel usr/lib/sparcv9/libsip.so
 delete usr/lib/libsip.so.1
 delete usr/lib/amd64/libsip.so.1
 delete usr/lib/sparcv9/libsip.so.1
+rrmdir usr/share/man/man3commputil
+delete usr/share/man/man3lib/libcommputil.3lib
+linkdel usr/lib/libcommputil.so
+linkdel usr/lib/amd64/libcommputil.so
+linkdel usr/lib/sparcv9/libcommputil.so
+delete usr/lib/libcommputil.so.1
+delete usr/lib/amd64/libcommputil.so.1
+delete usr/lib/sparcv9/libcommputil.so.1

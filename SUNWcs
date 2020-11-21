@@ -148,3 +148,5 @@ delete usr/bin/i86/uptime
 replace lib/svc/method/rmtmpfiles
 delete usr/bin/kvmstat
 delete usr/share/man/man1/kvmstat.1
+linkdel usr/net/nls/nlps_server
+delete usr/lib/saf/nlps_server

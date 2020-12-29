@@ -8,3 +8,5 @@ add boot/loader.rc.local
 delete boot/forth/logo-fbsdbw.4th
 delete boot/forth/logo-beastiebw.4th
 delete boot/forth/logo-beastie.4th
+delete dist/boot/ooce.png
+delete dist/boot/fenix.png

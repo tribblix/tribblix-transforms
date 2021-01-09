@@ -127,7 +127,7 @@ add usr/share/man/man1m/snoop.1m group=bin mode=0444 owner=root
 linkdel etc/svc/profile/platform_SUNW,UltraSPARC-IIe-NetraCT-40.xml
 linkdel etc/svc/profile/platform_SUNW,UltraSPARC-IIe-NetraCT-60.xml
 delete etc/svc/profile/platform_SUNW,UltraSPARC-IIi-Netract.xml
-rrmdir usr/share/doc/ksh
+rrmdir usr/share/doc
 linkdel usr/bin/strerr
 linkdel usr/bin/strclean
 delete usr/sbin/strerr

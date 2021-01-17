@@ -153,3 +153,5 @@ linkdel usr/net/nls/nlps_server
 delete usr/lib/saf/nlps_server
 rmdir export
 modify usr/bin/which s/arg:h/arg/
+linkdel etc/setmnt
+delete usr/sbin/setmnt

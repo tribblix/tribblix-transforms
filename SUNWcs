@@ -155,3 +155,6 @@ rmdir export
 modify usr/bin/which s/arg:h/arg/
 linkdel etc/setmnt
 delete usr/sbin/setmnt
+rmdir opt
+rmdir etc/opt
+rmdir var/opt

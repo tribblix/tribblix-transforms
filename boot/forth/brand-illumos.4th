@@ -30,7 +30,7 @@
 	1+ \ increase y for next time we're called
 ;
 
-: brand ( x y -- ) \ "illumos" [wide] logo in B/W (5 rows x 39 columns)
+: brand ( x y -- ) \ "tribblix" [wide] logo in B/W (5 rows x 39 columns)
 
 	s"  _____      _  _     _     _  _ _   _  " brand+
 	s" |_   _|  _ (_)| | _ | | _ | |(_)\ \/ / " brand+

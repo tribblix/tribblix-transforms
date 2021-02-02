@@ -6,7 +6,11 @@ delete boot/forth/logo-omnios.4th
 delete boot/forth/brand-omnios.4th
 add boot/loader.rc.local
 delete boot/forth/logo-fbsdbw.4th
+delete boot/forth/logo-orb.4th
+delete boot/forth/logo-orbbw.4th
 delete boot/forth/logo-beastiebw.4th
 delete boot/forth/logo-beastie.4th
 delete dist/boot/ooce.png
 delete dist/boot/fenix.png
+delete dist/boot/illumos-brand.png
+delete dist/boot/illumos-small.png

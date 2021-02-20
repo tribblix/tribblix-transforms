@@ -6,3 +6,4 @@ delete usr/lib/llib-lhal
 delete usr/lib/llib-lhal-storage
 delete usr/lib/llib-lhal-storage.ln
 delete usr/lib/llib-lhal.ln
+modify lib/svc/manifest/system/hal.xml s/false/true/

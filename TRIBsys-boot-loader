@@ -2,6 +2,7 @@ replace boot/forth/brand-illumos.4th
 modify boot/defaults/loader.conf s/omnios/illumos/
 modify boot/defaults/loader.conf s/OmniOS/Tribblix/
 modify boot/forth/menu-commands.4th s/OmniOS\./Tribblix\./
+modify boot/forth/menu-commands.4th s/illumos\./Tribblix\./
 delete boot/forth/logo-omnios.4th
 delete boot/forth/brand-omnios.4th
 add boot/loader.rc.local
@@ -10,7 +11,8 @@ delete boot/forth/logo-orb.4th
 delete boot/forth/logo-orbbw.4th
 delete boot/forth/logo-beastiebw.4th
 delete boot/forth/logo-beastie.4th
-delete dist/boot/ooce.png
-delete dist/boot/fenix.png
-delete dist/boot/illumos-brand.png
-delete dist/boot/illumos-small.png
+delete boot/ooce.png
+delete boot/fenix.png
+delete boot/illumos-brand.png
+delete boot/illumos-small.png
+modify boot/defaults/loader.conf s/white/green/

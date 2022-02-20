@@ -1,6 +1,0 @@
-delete usr/lib/amd64/llib-lexslt.ln
-delete usr/lib/amd64/llib-lxslt.ln
-delete usr/lib/llib-lexslt
-delete usr/lib/llib-lexslt.ln
-delete usr/lib/llib-lxslt
-delete usr/lib/llib-lxslt.ln

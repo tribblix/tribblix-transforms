@@ -1,4 +1,0 @@
-delete usr/lib/amd64/llib-ldat.ln
-delete usr/lib/sparcv9/llib-ldat.ln
-delete usr/lib/llib-ldat
-delete usr/lib/llib-ldat.ln

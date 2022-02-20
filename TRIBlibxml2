@@ -1,5 +1,0 @@
-delete lib/amd64/llib-lxml2.ln
-delete lib/llib-lxml2.ln
-delete usr/lib/llib-lxml2
-linkdel usr/lib/amd64/llib-lxml2.ln
-linkdel usr/lib/llib-lxml2.ln

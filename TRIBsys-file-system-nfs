@@ -1,4 +1,2 @@
 delete usr/bin/on
 delete usr/share/man/man1/on.1
-delete usr/lib/nfs/llib-lmapid
-delete usr/lib/nfs/llib-lmapid.ln

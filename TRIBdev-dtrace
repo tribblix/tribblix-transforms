@@ -1,7 +1,3 @@
-delete usr/lib/amd64/llib-ldtrace.ln
-delete usr/lib/sparcv9/llib-ldtrace.ln
-delete usr/lib/llib-ldtrace
-delete usr/lib/llib-ldtrace.ln
 rrmdir usr/share/lib/java/javadoc
 rrmdir usr/sbin/i86
 linkdel usr/lib/libdtrace_jni.so

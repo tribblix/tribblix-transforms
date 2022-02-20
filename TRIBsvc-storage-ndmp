@@ -1,4 +1,0 @@
-delete usr/lib/amd64/llib-lndmp.ln
-delete usr/lib/sparcv9/llib-lndmp.ln
-delete usr/lib/llib-lndmp
-delete usr/lib/llib-lndmp.ln

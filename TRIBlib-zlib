@@ -1,5 +1,0 @@
-delete lib/amd64/llib-lz.ln
-delete lib/llib-lz.ln
-delete usr/lib/llib-lz
-linkdel usr/lib/amd64/llib-lz.ln
-linkdel usr/lib/llib-lz.ln

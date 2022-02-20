@@ -1,13 +1,3 @@
-delete usr/lib/amd64/llib-ll.ln
-delete usr/lib/amd64/llib-ly.ln
-delete usr/lib/sparcv9/llib-ll.ln
-delete usr/lib/sparcv9/llib-ly.ln
-delete usr/lib/llib-ll
-delete usr/lib/llib-ll.ln
-delete usr/lib/llib-ly
-delete usr/lib/llib-ly.ln
-linkdel usr/ccs/lib/llib-ll.ln
-linkdel usr/ccs/lib/llib-ly.ln
 linkdel usr/ccs/bin/symorder
 delete usr/bin/symorder
 delete usr/share/man/man1/symorder.1

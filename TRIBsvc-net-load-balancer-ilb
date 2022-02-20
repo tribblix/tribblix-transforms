@@ -1,4 +1,0 @@
-delete usr/lib/amd64/llib-lilb.ln
-delete usr/lib/sparcv9/llib-lilb.ln
-delete usr/lib/llib-lilb
-delete usr/lib/llib-lilb.ln

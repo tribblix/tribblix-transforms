@@ -1,4 +1,0 @@
-delete usr/lib/amd64/llib-ldiskmgt.ln
-delete usr/lib/sparcv9/llib-ldiskmgt.ln
-delete usr/lib/llib-ldiskmgt
-delete usr/lib/llib-ldiskmgt.ln

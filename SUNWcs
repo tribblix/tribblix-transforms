@@ -158,3 +158,12 @@ delete usr/sbin/setmnt
 rmdir opt
 rmdir etc/opt
 rmdir var/opt
+linkdel etc/dcopy
+linkdel etc/clri
+linkdel etc/whodo
+linkdel etc/sysdef
+linkdel etc/fsdb
+linkdel etc/prtconf
+linkdel etc/prtvtoc
+linkdel etc/fmthard
+linkdel etc/format

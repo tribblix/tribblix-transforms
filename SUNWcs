@@ -15,8 +15,6 @@ linkdel usr/news
 rmdir var/news
 rmdir usr/old
 delete usr/share/man/man4/packingrules.4
-delete usr/share/man/man4/wanboot.conf.4
-delete etc/inet/wanboot.conf.sample
 replace etc/profile
 replace etc/.login
 replace etc/group

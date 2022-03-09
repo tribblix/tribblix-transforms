@@ -1,1 +1,0 @@
-add usr/lib/devfsadm/linkmod/SUNW_md_link.so group=sys mode=0755 owner=root

@@ -1,5 +1,5 @@
 delete usr/bin/tpmadm
-delete usr/share/man/man1m/tpmadm.1m
+delete usr/share/man/man8/tpmadm.8
 delete usr/lib/devfsadm/linkmod/SUNW_md_link.so
 modify etc/nsswitch.conf /^hosts/s:\(.*\):\1 dns:
 modify etc/nsswitch.conf /^ipnodes/s:\(.*\):\1 dns:
@@ -14,7 +14,7 @@ rmdir usr/kvm
 linkdel usr/news
 rmdir var/news
 rmdir usr/old
-delete usr/share/man/man4/packingrules.4
+delete usr/share/man/man5/packingrules.5
 replace etc/profile
 replace etc/.login
 replace etc/group
@@ -47,21 +47,21 @@ rrmdir usr/has
 linkdel etc/ff
 linkdel etc/ncheck
 linkdel usr/sbin/ncheck
-delete usr/share/man/man1m/ff.1m
-delete usr/share/man/man1m/ff_ufs.1m
+delete usr/share/man/man8/ff.8
+delete usr/share/man/man8/ff_ufs.8
 delete usr/lib/fs/ufs/ff
 delete usr/sbin/ff
 delete usr/lib/fs/ufs/ncheck
-delete usr/share/man/man1m/ncheck.1m
-delete usr/share/man/man1m/ncheck_ufs.1m
+delete usr/share/man/man8/ncheck.8
+delete usr/share/man/man8/ncheck_ufs.8
 linkdel etc/volcopy
 delete usr/lib/fs/ufs/volcopy
 delete usr/sbin/volcopy
-delete usr/share/man/man1m/volcopy.1m
-delete usr/share/man/man1m/volcopy_ufs.1m
+delete usr/share/man/man8/volcopy.8
+delete usr/share/man/man8/volcopy_ufs.8
 linkdel usr/sbin/quot
 delete usr/lib/fs/ufs/quot
-delete usr/share/man/man1m/quot.1m
+delete usr/share/man/man8/quot.8
 linkdel usr/src
 rmdir usr/share/src
 delete usr/bin/crypt
@@ -69,14 +69,14 @@ delete usr/share/man/man1/crypt.1
 delete usr/bin/sparcv9/setuname
 delete usr/bin/amd64/setuname
 delete usr/bin/i86/setuname
-delete usr/share/man/man1m/setuname.1m
+delete usr/share/man/man8/setuname.8
 linkdel usr/bin/setuname
 delete usr/bin/addbadsec
-delete usr/share/man/man1m/addbadsec.1m
+delete usr/share/man/man8/addbadsec.8
 delete usr/bin/diskscan
-delete usr/share/man/man1m/diskscan.1m
+delete usr/share/man/man8/diskscan.8
 delete usr/bin/logins
-delete usr/share/man/man1m/logins.1m
+delete usr/share/man/man8/logins.8
 delete usr/bin/csh
 delete usr/share/man/man1/csh.1
 symlink usr/bin/csh target=tcsh
@@ -88,32 +88,32 @@ add etc/skel/.bashrc owner=root group=other mode=0644
 add usr/sadm/defadduser owner=root group=root mode=0644
 linkdel etc/wall
 delete usr/sbin/wall
-delete usr/share/man/man1m/wall.1m
+delete usr/share/man/man8/wall.8
 delete usr/lib/calprog
 delete usr/sbin/syncstat
-delete usr/share/man/man1m/syncstat.1m
+delete usr/share/man/man8/syncstat.8
 delete usr/sbin/syncloop
-delete usr/share/man/man1m/syncloop.1m
+delete usr/share/man/man8/syncloop.8
 delete usr/sbin/syncinit
-delete usr/share/man/man1m/syncinit.1m
+delete usr/share/man/man8/syncinit.8
 delete usr/bin/devfree
-delete usr/share/man/man1m/devfree.1m
+delete usr/share/man/man8/devfree.8
 delete usr/bin/devreserv
-delete usr/share/man/man1m/devreserv.1m
+delete usr/share/man/man8/devreserv.8
 delete usr/bin/devattr
-delete usr/share/man/man1m/devattr.1m
+delete usr/share/man/man8/devattr.8
 delete usr/bin/getdev
-delete usr/share/man/man1m/getdev.1m
+delete usr/share/man/man8/getdev.8
 delete usr/bin/putdev
-delete usr/share/man/man1m/putdev.1m
+delete usr/share/man/man8/putdev.8
 delete usr/bin/getvol
-delete usr/share/man/man1m/getvol.1m
+delete usr/share/man/man8/getvol.8
 delete usr/bin/getdgrp
-delete usr/share/man/man1m/getdgrp.1m
+delete usr/share/man/man8/getdgrp.8
 delete usr/bin/putdgrp
-delete usr/share/man/man1m/putdgrp.1m
+delete usr/share/man/man8/putdgrp.8
 delete usr/bin/listdgrp
-delete usr/share/man/man1m/listdgrp.1m
+delete usr/share/man/man8/listdgrp.8
 delete usr/bin/amd64/amt
 delete usr/bin/amt
 delete usr/bin/i86/amt
@@ -121,7 +121,7 @@ delete usr/share/man/man1/amt.1
 add usr/bin/whois group=bin mode=0555 owner=root
 add usr/sbin/snoop group=bin mode=0555 owner=root
 add usr/share/man/man1/whois.1 group=bin mode=0444 owner=root
-add usr/share/man/man1m/snoop.1m group=bin mode=0444 owner=root
+add usr/share/man/man8/snoop.8 group=bin mode=0444 owner=root
 linkdel etc/svc/profile/platform_SUNW,UltraSPARC-IIe-NetraCT-40.xml
 linkdel etc/svc/profile/platform_SUNW,UltraSPARC-IIe-NetraCT-60.xml
 delete etc/svc/profile/platform_SUNW,UltraSPARC-IIi-Netract.xml
@@ -130,8 +130,8 @@ linkdel usr/bin/strerr
 linkdel usr/bin/strclean
 delete usr/sbin/strerr
 delete usr/sbin/strclean
-delete usr/share/man/man1m/strerr.1m
-delete usr/share/man/man1m/strclean.1m
+delete usr/share/man/man8/strerr.8
+delete usr/share/man/man8/strclean.8
 linkdel usr/bin/i86/encrypt
 linkdel usr/bin/i86/mac
 delete usr/bin/i86/decrypt

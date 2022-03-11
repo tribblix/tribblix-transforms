@@ -1,2 +1,2 @@
 delete usr/sbin/exportfs
-mkdir usr/share/man/man4 group=bin mode=0755 owner=root
+mkdir usr/share/man/man5 group=bin mode=0755 owner=root

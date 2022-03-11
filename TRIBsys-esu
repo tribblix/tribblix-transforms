@@ -9,7 +9,7 @@ delete usr/share/man/man1/pack.1
 delete usr/bin/calendar
 delete usr/share/man/man1/calendar.1
 rrmdir usr/lib/adb
-delete usr/share/man/man1m/adbgen.1m
+delete usr/share/man/man8/adbgen.8
 linkdel usr/bin/i86/pauxv
 linkdel usr/bin/i86/penv
 rrmdir usr/bin/i86

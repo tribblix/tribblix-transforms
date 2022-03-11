@@ -42,6 +42,6 @@ rmdir platform/SUNW,Sun-Fire-15000/kernel
 rmdir platform/SUNW,Sun-Fire-15000
 type platform/i86pc/ucode/intel-ucode.txt f
 type platform/i86pc/ucode/amd-ucode.bin f
-mkdir usr/share/man/man7d group=bin mode=0755 owner=root
+mkdir usr/share/man/man4d group=bin mode=0755 owner=root
 rrmdir platform/SUNW,Netra-CP2300
 rrmdir platform/SUNW,Ultra-Enterprise

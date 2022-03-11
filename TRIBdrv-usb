@@ -1,1 +1,1 @@
-mkdir usr/share/man/man7d group=bin mode=0755 owner=root
+mkdir usr/share/man/man4d group=bin mode=0755 owner=root

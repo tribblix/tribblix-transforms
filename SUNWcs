@@ -15,6 +15,7 @@ linkdel usr/news
 rmdir var/news
 rmdir usr/old
 delete usr/share/man/man5/packingrules.5
+mkdir usr/share/man/man7 group=bin mode=0755 owner=root
 replace etc/profile
 replace etc/.login
 replace etc/group

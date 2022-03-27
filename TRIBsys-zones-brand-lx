@@ -7,3 +7,4 @@ add usr/lib/brand/lx/prestate mode=0755
 add usr/lib/brand/lx/config.xml mode=0644
 add usr/lib/brand/lx/platform.xml mode=0644
 add usr/lib/brand/lx/lx_install mode=0755
+undepend TRIBsys-zones-brand-lx-platform

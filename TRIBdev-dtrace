@@ -2,3 +2,4 @@ rrmdir usr/share/lib/java/javadoc
 rrmdir usr/sbin/i86
 linkdel usr/lib/libdtrace_jni.so
 delete usr/lib/libdtrace_jni.so.1
+undepend TRIBdev-macro-cpp

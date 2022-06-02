@@ -1,3 +1,5 @@
 delete usr/share/man/man1b/exportfs.1b
 linkdel usr/ucb/i86/ps
 rmdir usr/ucb/i86
+delete usr/ucb/biff
+delete usr/share/man/man1b/biff.1b

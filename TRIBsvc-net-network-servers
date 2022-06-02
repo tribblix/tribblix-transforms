@@ -1,2 +1,6 @@
 delete usr/share/man/man1/finger.1
 delete usr/bin/finger
+delete lib/svc/manifest/network/comsat.xml
+delete usr/sbin/in.comsat
+linkdel usr/share/man/man8/comsat.8
+delete usr/share/man/man8/in.comsat.8

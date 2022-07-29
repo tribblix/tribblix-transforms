@@ -166,3 +166,9 @@ linkdel etc/prtconf
 linkdel etc/prtvtoc
 linkdel etc/fmthard
 linkdel etc/format
+linkdel usr/sbin/edquota
+delete usr/lib/fs/ufs/edquota
+delete usr/share/man/man8/edquota.8
+linkdel usr/sbin/repquota
+delete usr/lib/fs/ufs/repquota
+delete usr/share/man/man8/repquota.8

@@ -1,0 +1,3 @@
+undepend TRIBjava
+undepend TRIBjava-runtime64
+depend TRIBopenjdk11

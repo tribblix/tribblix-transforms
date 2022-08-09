@@ -1,0 +1,3 @@
+add usr/bin/tpmadm group=bin mode=0555 owner=root
+add usr/share/man/man8/tpmadm.8 group=bin mode=0444 owner=root
+depend TRIBlib-security-trousers

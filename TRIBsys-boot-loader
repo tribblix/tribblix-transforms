@@ -1,6 +1,7 @@
 replace boot/forth/brand-illumos.4th
 modify boot/defaults/loader.conf s/omnios/illumos/
 modify boot/defaults/loader.conf s/OmniOS/Tribblix/
+modify boot/defaults/loader.conf s/#\(console=.\)text\(.*\)/\1text,ttya,ttyb,ttyc,ttyd\2/
 modify boot/forth/menu-commands.4th s/OmniOS\./Tribblix\./
 modify boot/forth/menu-commands.4th s/illumos\./Tribblix\./
 delete boot/forth/logo-omnios.4th

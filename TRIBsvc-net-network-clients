@@ -8,3 +8,4 @@ delete usr/bin/whois
 delete usr/sbin/snoop
 delete usr/share/man/man1/whois.1
 delete usr/share/man/man8/snoop.8
+undepend TRIBnet-snoop

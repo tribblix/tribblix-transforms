@@ -172,3 +172,14 @@ delete usr/share/man/man8/edquota.8
 linkdel usr/sbin/repquota
 delete usr/lib/fs/ufs/repquota
 delete usr/share/man/man8/repquota.8
+linkdel etc/swap
+linkdel etc/swapadd
+linkdel etc/mknod
+linkdel etc/fsck
+linkdel etc/fstyp
+linkdel etc/cfgadm
+linkdel etc/cron
+linkdel etc/killall
+linkdel etc/mountall
+linkdel etc/umountall
+linkdel etc/tar

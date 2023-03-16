@@ -79,7 +79,11 @@ delete usr/share/man/man8/diskscan.8
 delete usr/bin/logins
 delete usr/share/man/man8/logins.8
 delete usr/bin/csh
+linkdel usr/bin/csh
+delete usr/has/bin/csh
 delete usr/share/man/man1/csh.1
+linkdel usr/share/man/man1/csh.1
+delete usr/has/man/man1has/csh.1has
 symlink usr/bin/csh target=tcsh
 symlink usr/share/man/man1/csh.1 target=tcsh.1
 delete etc/skel/local.cshrc

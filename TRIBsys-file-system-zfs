@@ -6,3 +6,5 @@ linkdel usr/lib/libzfs_jni.so
 delete usr/lib/libzfs_jni.so.1
 delete usr/lib/zfs/pyzfs.py
 delete usr/lib/zfs/pyzfs.pyc
+delete usr/lib/zfs/availdevs
+rmdir usr/lib/zfs

@@ -1,2 +1,3 @@
 delete usr/bin/i86/ztest
 delete usr/bin/i86/zlook
+add usr/share/man/man8/ztest.8 group=bin mode=0444 owner=root

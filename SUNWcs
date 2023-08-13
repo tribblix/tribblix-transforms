@@ -210,3 +210,4 @@ rmdir usr/lib/fs/nfs/amd64
 modify etc/default/passwd s/PASSLENGTH=6/PASSLENGTH=8/
 add var/adm/loginlog owner=root group=sys mode=0600
 type var/adm/loginlog e
+replace usr/share/man/man5/loginlog.5

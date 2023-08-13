@@ -207,3 +207,4 @@ rmdir usr/sbin/i86
 rmdir usr/share/lib/pub
 rmdir usr/lib/fs/autofs/amd64
 rmdir usr/lib/fs/nfs/amd64
+modify etc/default/passwd s/PASSLENGTH=6/PASSLENGTH=8/

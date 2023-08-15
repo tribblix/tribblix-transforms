@@ -1,1 +1,2 @@
 delete usr/bin/i86/latencytop
+rmdir usr/bin/i86

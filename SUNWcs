@@ -203,6 +203,7 @@ delete usr/share/man/man1/allocate.1
 delete usr/share/man/man1/deallocate.1
 delete lib/svc/manifest/system/device/allocate.xml
 delete lib/svc/method/svc-allocate
+rmdir usr/bin/i86
 rmdir usr/sbin/i86
 rmdir usr/share/lib/pub
 rmdir usr/lib/fs/autofs/amd64

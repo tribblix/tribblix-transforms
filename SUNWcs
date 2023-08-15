@@ -214,3 +214,13 @@ type var/adm/loginlog e
 replace usr/share/man/man5/loginlog.5
 linkdel etc/log
 rmdir var/adm/log
+noisaexec usr/bin/digest
+noisaexeclink usr/bin/mac target=digest
+noisaexec usr/bin/newtask
+noisaexec usr/bin/nohup
+noisaexec usr/bin/prctl
+noisaexec usr/bin/prstat
+noisaexec usr/bin/savecore
+noisaexec usr/lib/inet/in.iked
+noisaexec usr/bin/decrypt
+noisaexeclink usr/bin/encrypt target=decrypt

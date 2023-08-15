@@ -67,6 +67,20 @@ rename pathname newname
 
 The file named pathname will instead be delivered as newname.
 
+noisaexec pathname
+
+If pathname is a link to isaexec, then the link to isaexec is replaced
+by the 64-bit binary itself
+
+noisaexeclink pathname target=z
+
+If pathname is a link to isaexec, and the 64-bit pathname is also a hard link,
+then the link to isaexec is replaced by a link to the specified target (which
+is assumed to have been processed by noisaexec earlier). In other words, if
+usr/bin/amd64/b is a hard link to usr/bin/amd64/a then the correct sequence is
+  noisaexec usr/bin/a
+  noisaexeclink usr/bin/b target=a
+
 type pathname newtype
 
 The ftype associated with pathname will be set to newtype. Generally

@@ -1,2 +1,3 @@
 delete usr/bin/i86/cputrack
 rmdir usr/bin/i86
+noisaexec usr/bin/cputrack

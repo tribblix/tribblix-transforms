@@ -13,3 +13,26 @@ delete usr/share/man/man8/adbgen.8
 linkdel usr/bin/i86/pauxv
 linkdel usr/bin/i86/penv
 rrmdir usr/bin/i86
+noisaexec usr/bin/pargs
+noisaexeclink usr/bin/pauxv target=pargs
+noisaexec usr/bin/pcred
+noisaexeclink usr/bin/penv target=pargs
+noisaexec usr/bin/pfiles
+noisaexec usr/bin/pflags
+noisaexec usr/bin/pldd
+noisaexec usr/bin/plgrp
+noisaexec usr/bin/pmadvise
+noisaexec usr/bin/pmap
+noisaexec usr/bin/ppgsz
+noisaexec usr/bin/ppriv
+noisaexec usr/bin/preap
+noisaexec usr/bin/prun
+noisaexec usr/bin/psecflags
+noisaexec usr/bin/psig
+noisaexec usr/bin/pstack
+noisaexec usr/bin/pstop
+noisaexec usr/bin/ptime
+noisaexec usr/bin/ptree
+noisaexec usr/bin/pwait
+noisaexec usr/bin/pwdx
+noisaexec usr/bin/sort

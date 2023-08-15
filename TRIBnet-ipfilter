@@ -1,3 +1,10 @@
 mkdir usr/share/man/man5 group=bin mode=0755 owner=root
 rrmdir usr/sbin/i86
 rrmdir usr/lib/ipf/i86
+noisaexec usr/lib/ipf/ipftest
+noisaexec usr/sbin/ipf
+noisaexec usr/sbin/ipfs
+noisaexec usr/sbin/ipfstat
+noisaexec usr/sbin/ipmon
+noisaexec usr/sbin/ipnat
+noisaexec usr/sbin/ippool

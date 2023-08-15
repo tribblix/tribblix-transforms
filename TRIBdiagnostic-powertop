@@ -1,2 +1,3 @@
 delete usr/bin/i86/powertop
 rmdir usr/bin/i86
+noisaexec usr/bin/powertop

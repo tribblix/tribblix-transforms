@@ -3,3 +3,7 @@ rrmdir usr/sbin/i86
 linkdel usr/lib/libdtrace_jni.so
 delete usr/lib/libdtrace_jni.so.1
 undepend TRIBdev-macro-cpp
+noisaexec usr/sbin/dtrace
+noisaexec usr/sbin/intrstat
+noisaexec usr/sbin/lockstat
+noisaexec usr/sbin/plockstat

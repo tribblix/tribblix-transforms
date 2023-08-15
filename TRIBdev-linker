@@ -1,1 +1,5 @@
 rrmdir usr/bin/i86
+noisaexec usr/bin/gcore
+noisaexec usr/bin/plimit
+noisaexec usr/bin/strings
+noisaexec usr/bin/truss

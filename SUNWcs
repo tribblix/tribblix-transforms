@@ -224,3 +224,4 @@ noisaexec usr/bin/savecore
 noisaexec usr/lib/inet/in.iked
 noisaexec usr/bin/decrypt
 noisaexeclink usr/bin/encrypt target=decrypt
+rmdir usr/games

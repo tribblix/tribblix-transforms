@@ -3,3 +3,8 @@ linkdel usr/ucb/i86/ps
 rmdir usr/ucb/i86
 delete usr/ucb/biff
 delete usr/share/man/man1b/biff.1b
+delete usr/share/man/man1b/lpc.1b
+delete usr/share/man/man1b/lpq.1b
+delete usr/share/man/man1b/lpr.1b
+delete usr/share/man/man1b/lprm.1b
+delete usr/share/man/man1b/lptest.1b

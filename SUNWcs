@@ -225,3 +225,9 @@ noisaexec usr/lib/inet/in.iked
 noisaexec usr/bin/decrypt
 noisaexeclink usr/bin/encrypt target=decrypt
 rmdir usr/games
+delete usr/bin/listusers
+delete usr/share/man/man1/listusers.1
+delete usr/bin/newform
+delete usr/share/man/man1/newform.1
+delete usr/bin/asa
+delete usr/share/man/man1/asa.1

@@ -1,1 +1,0 @@
-mkdir usr/share/man/man3papi group=bin mode=0755 owner=root

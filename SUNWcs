@@ -227,10 +227,6 @@ noisaexeclink usr/bin/encrypt target=decrypt
 rmdir usr/games
 delete usr/bin/listusers
 delete usr/share/man/man1/listusers.1
-delete usr/bin/newform
-delete usr/share/man/man1/newform.1
-delete usr/bin/asa
-delete usr/share/man/man1/asa.1
 delete usr/lib/iconv/646da.8859.t
 delete usr/lib/iconv/646de.8859.t
 delete usr/lib/iconv/646en.8859.t

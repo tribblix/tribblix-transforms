@@ -1,0 +1,5 @@
+With the inclusion of our own upstream sendmail, having mailwrapper makes
+no sense and as the Tribblix sendmail build is in the default install
+location, mailwrapper would cause conflicts.
+
+Remove the gate mailwrapper and sendmail to avoid confusion.

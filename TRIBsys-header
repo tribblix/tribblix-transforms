@@ -20,3 +20,7 @@ linkdel usr/platform/SUNW,Ultra-Enterprise/include
 rmdir usr/platform/SUNW,Ultra-Enterprise
 delete usr/include/sip.h
 delete usr/include/sdp.h
+delete usr/include/sys/tnf.h
+delete usr/include/sys/tnf_com.h
+delete usr/include/sys/tnf_probe.h
+delete usr/include/sys/tnf_writer.h

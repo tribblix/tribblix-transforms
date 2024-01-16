@@ -1,0 +1,2 @@
+14079 removed tnf, explicitly delete the package here as well so that
+it gets removed on sparc

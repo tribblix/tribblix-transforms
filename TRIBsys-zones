@@ -1,3 +1,4 @@
+name Zones infrastructure
 modify etc/zones/SUNWblank.xml s/ipkg/native/
 modify etc/zones/SUNWdefault.xml s/ipkg/native/
 delete usr/lib/brand/ipkg/config.xml

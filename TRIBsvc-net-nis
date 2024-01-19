@@ -1,1 +1,2 @@
+name NIS Server
 mkdir usr/share/man/man5 group=bin mode=0755 owner=root

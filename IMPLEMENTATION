@@ -94,6 +94,11 @@ undepend package
 
 Remove the dependency on package.
 
+name new name
+
+Sets the NAME field in the pkginfo file, which is what gets printed as the
+description of the package by the pkginfo command
+
 
 
 The actions are processed in order, so it is possible to have multiple

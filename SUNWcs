@@ -1,3 +1,4 @@
+name Core illumos
 delete usr/bin/tpmadm
 delete usr/share/man/man8/tpmadm.8
 delete usr/lib/devfsadm/linkmod/SUNW_md_link.so

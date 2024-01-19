@@ -1,3 +1,4 @@
+name Core shared libraries
 delete etc/flash/precreation/caplib
 rmdir etc/flash/preexit
 rmdir etc/flash/precreation

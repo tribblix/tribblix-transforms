@@ -1,3 +1,4 @@
+name Core per-architecture kernel
 delete platform/SUNW,Ultra-Enterprise-10000/kernel/cpu/sparcv9/SUNW,UltraSPARC-II
 rmdir platform/SUNW,Ultra-Enterprise-10000/kernel/cpu/sparcv9
 rmdir platform/SUNW,Ultra-Enterprise-10000/kernel/cpu

@@ -1,1 +1,6 @@
 delete boot/grub/splash.xpm.gz
+add boot/solaris/bin/update_grub group=sys mode=0555 owner=root
+add usr/include/libgrubmgmt.h group=bin mode=0644 owner=root
+add usr/share/man/man8/installgrub.8 group=bin mode=0444 owner=root
+add sbin/installgrub group=sys mode=0555 owner=root
+symlink usr/sbin/installgrub target=../../sbin/installgrub

@@ -244,3 +244,6 @@ delete usr/lib/iconv/8859.646it.t
 delete usr/lib/iconv/8859.646sv.t
 delete usr/lib/iconv/iconv_data
 delete usr/share/man/man8/mail.local.8
+linkdel usr/sbin/installgrub
+delete sbin/installgrub
+delete usr/share/man/man8/installgrub.8

@@ -4,3 +4,4 @@ delete kernel/fs/sparcv9/cachefs
 delete kernel/fs/cachefs
 mkdir usr/share/man/man4 group=bin mode=0755 owner=root
 delete usr/share/man/man5/tnf_kernel_probes.5
+delete boot/solaris/bin/update_grub

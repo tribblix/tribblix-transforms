@@ -24,3 +24,4 @@ delete usr/include/sys/tnf.h
 delete usr/include/sys/tnf_com.h
 delete usr/include/sys/tnf_probe.h
 delete usr/include/sys/tnf_writer.h
+delete usr/include/libgrubmgmt.h

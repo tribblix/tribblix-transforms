@@ -7,4 +7,5 @@ add usr/lib/brand/lx/prestate owner=root group=bin mode=0755
 add usr/lib/brand/lx/config.xml owner=root group=bin mode=0644
 add usr/lib/brand/lx/platform.xml owner=root group=bin mode=0644
 add usr/lib/brand/lx/lx_install owner=root group=bin mode=0755
+add usr/lib/brand/lx/zap-upgrade owner=root group=bin mode=0755
 undepend TRIBsys-zones-brand-lx-platform

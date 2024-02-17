@@ -1,1 +1,2 @@
 modify usr/lib/brand/solaris10/s10_boot s/ARCH32=i86/ARCH32=/
+add usr/lib/brand/solaris10/zap-upgrade owner=root group=bin mode=0755

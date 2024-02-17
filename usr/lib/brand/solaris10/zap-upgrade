@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# No actions are necessary to upgrade solaris10 zones
+#
+exit 0

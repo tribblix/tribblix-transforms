@@ -9,3 +9,5 @@ delete usr/lib/zfs/pyzfs.pyc
 delete usr/lib/zfs/availdevs
 rmdir usr/lib/zfs
 delete usr/share/man/man8/ztest.8
+rmdir usr/sbin/amd64
+rmdir usr/sbin/sparcv9

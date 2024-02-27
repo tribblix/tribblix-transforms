@@ -250,3 +250,5 @@ delete usr/share/man/man8/installgrub.8
 rmdir usr/demo
 rmdir lib/crypto
 rmdir usr/lib/crypto
+rmdir usr/sbin/amd64
+rmdir usr/sbin/sparcv9

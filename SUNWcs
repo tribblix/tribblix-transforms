@@ -247,3 +247,6 @@ delete usr/share/man/man8/mail.local.8
 linkdel usr/sbin/installgrub
 delete sbin/installgrub
 delete usr/share/man/man8/installgrub.8
+rmdir usr/demo
+rmdir lib/crypto
+rmdir usr/lib/crypto

@@ -1,0 +1,49 @@
+#!/bin/sh
+#
+# this is a script that will compare the files replaced from here
+# against a gate proto area, so it's possible to see whether the
+# changes are as expected - generally there's no way to track upstream
+# changes
+#
+
+bail() {
+    echo "ERROR: $1"
+    exit 1
+}
+
+DIFF="diff -u"
+if [ -n "${DISPLAY}" ]; then
+    DIFF="tkdiff"
+fi
+
+case $# in
+    1)
+	GATE="$1"
+	;;
+    *)
+	bail "expecting a gate location"
+	;;
+esac
+
+if [ ! -d "${GATE}" ]; then
+    bail "gate doesn't exist"
+fi
+if [ ! -d "${GATE}/proto" ]; then
+    bail "gate proto doesn't exist"
+fi
+
+ARCH=$(uname -p)
+GATEDIR="${GATE}/proto/root_${ARCH}"
+if [ ! -d "${GATEDIR}" ]; then
+    bail "gate proto area doesn't exist"
+fi
+
+for file in $(find boot etc lib root usr var -type f)
+do
+    if [ -f "${GATEDIR}/${file}" ]; then
+	echo "found $file"
+	$DIFF "${GATEDIR}/${file}" "$file"
+    else
+	echo "missing $file"
+    fi
+done

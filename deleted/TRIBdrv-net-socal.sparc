@@ -1,0 +1,2 @@
+The sf and socal drivers are for a very specific legacy piece of
+SBus hardware, and just generate noise on newer systems.

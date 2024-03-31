@@ -1,3 +1,4 @@
 rrmdir usr/lib/help
 modify usr/lib/brand/labeled/config.xml s:/ipkg/:/whole-root/:g
 depend TRIBzenity
+type usr/lib/lp/postscript/tsol_separator.ps f

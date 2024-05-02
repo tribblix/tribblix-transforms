@@ -255,3 +255,5 @@ rmdir usr/lib/crypto
 rmdir usr/sbin/amd64
 rmdir usr/sbin/sparcv9
 replace usr/share/man/man1/more.1
+delete usr/bin/pax
+delete usr/share/man/man1/pax.1

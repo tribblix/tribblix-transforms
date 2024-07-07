@@ -257,3 +257,5 @@ rmdir usr/sbin/sparcv9
 replace usr/share/man/man1/more.1
 delete usr/bin/pax
 delete usr/share/man/man1/pax.1
+add usr/share/man/man1/tsort.1 group=bin mode=0444 owner=root
+add usr/bin/tsort group=bin mode=0555 owner=root

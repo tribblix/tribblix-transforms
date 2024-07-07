@@ -1,3 +1,5 @@
 linkdel usr/ccs/bin/symorder
 delete usr/bin/symorder
 delete usr/share/man/man1/symorder.1
+delete usr/bin/tsort
+delete usr/share/man/man1/tsort.1

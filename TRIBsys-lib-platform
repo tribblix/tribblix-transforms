@@ -4,12 +4,6 @@ linkdel usr/platform/SUNW,Ultra-Enterprise-10000/lib/fs
 linkdel usr/platform/SUNW,Ultra-Enterprise-10000/sbin
 rmdir usr/platform/SUNW,Ultra-Enterprise-10000/lib
 rmdir usr/platform/SUNW,Ultra-Enterprise-10000
-delete usr/platform/SUNW,Sun-Fire-15000/lib/libprtdiag_psr.so.1
-linkdel usr/platform/SUNW,Sun-Fire-15000/lib/cfgadm
-linkdel usr/platform/SUNW,Sun-Fire-15000/lib/fs
-linkdel usr/platform/SUNW,Sun-Fire-15000/sbin
-rmdir usr/platform/SUNW,Sun-Fire-15000/lib
-rmdir usr/platform/SUNW,Sun-Fire-15000
 rrmdir usr/platform/SUNW,UltraSPARC-IIe-NetraCT-60
 rrmdir usr/platform/SUNW,UltraSPARC-IIe-NetraCT-40
 rrmdir usr/platform/SUNW,UltraSPARC-IIi-Netract

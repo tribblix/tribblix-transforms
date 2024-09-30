@@ -1,13 +1,3 @@
-delete usr/platform/SUNW,Sun-Fire-15000/lib/fm/topo/plugins/ioboard.so
-rmdir usr/platform/SUNW,Sun-Fire-15000/lib/fm/topo/plugins
-delete usr/platform/SUNW,Sun-Fire-15000/lib/fm/topo/maps/Sun-Fire-15000-hc-topology.xml
-rmdir usr/platform/SUNW,Sun-Fire-15000/lib/fm/topo/maps
-rmdir usr/platform/SUNW,Sun-Fire-15000/lib/fm/topo
-delete usr/platform/SUNW,Sun-Fire-15000/lib/fm/eft/SUNW,Sun-Fire-15000.eft
-rmdir usr/platform/SUNW,Sun-Fire-15000/lib/fm/eft
-rmdir usr/platform/SUNW,Sun-Fire-15000/lib/fm
-rmdir usr/platform/SUNW,Sun-Fire-15000/lib
-rmdir usr/platform/SUNW,Sun-Fire-15000
 linkdel usr/platform/i86pc/lib/fm/topo/maps/Joyent-Compute-Platform-3101-hc-topology.xml
 linkdel usr/platform/i86pc/lib/fm/topo/maps/Joyent-Compute-Platform-3101-usb.usbtopo
 linkdel usr/platform/i86pc/lib/fm/topo/maps/Joyent-Compute-Platform-3102-hc-topology.xml

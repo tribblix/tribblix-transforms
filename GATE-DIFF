@@ -1,5 +1,7 @@
 #!/bin/sh
 #
+# SPDX-License-Identifier: CDDL-1.0
+#
 # this is a script that will compare the files replaced from here
 # against a gate proto area, so it's possible to see whether the
 # changes are as expected - generally there's no way to track upstream
@@ -38,7 +40,7 @@ if [ ! -d "${GATEDIR}" ]; then
     bail "gate proto area doesn't exist"
 fi
 
-for file in $(find boot etc lib root usr var -type f)
+find boot etc lib root usr var -type f | while read -r file
 do
     if [ -f "${GATEDIR}/${file}" ]; then
 	echo "found $file"

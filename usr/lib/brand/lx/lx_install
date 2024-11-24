@@ -105,7 +105,7 @@ elif [[ ! -f $ZFS_SEED ]]; then
 	#    echo "ZFS promote ($ZONEPATH_DS) failed ($?)."
 	#    exit $ZONE_SUBPROC_FAIL
 	# fi
-    else 
+    else
 	echo "Seed file $ZFS_SEED $TAR_SEED not found."
 	bad_usage
     fi

@@ -1,1 +1,2 @@
 delete usr/bin/pkgcond
+mkdir var/sadm/license group=sys mode=0755 owner=root

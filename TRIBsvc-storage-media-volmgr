@@ -1,4 +1,4 @@
-modify lib/svc/manifest/system/hal.xml s/false/true/
 depend TRIBlib-glib2
+depend TRIBsvc-hal
 depend TRIBsys-libdbus
 depend TRIBsys-libdbus-glib

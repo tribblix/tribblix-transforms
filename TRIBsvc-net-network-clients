@@ -7,5 +7,7 @@ delete usr/share/man/man8/rwall.8
 delete usr/bin/whois
 delete usr/sbin/snoop
 delete usr/share/man/man1/whois.1
+delete usr/bin/rdate
+delete usr/share/man/man8/rdate.8
 delete usr/share/man/man8/snoop.8
 undepend TRIBnet-snoop

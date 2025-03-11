@@ -188,6 +188,11 @@ linkdel etc/killall
 linkdel etc/mountall
 linkdel etc/umountall
 linkdel etc/tar
+linkdel etc/halt
+linkdel etc/install
+linkdel etc/reboot
+linkdel etc/shutdown
+linkdel etc/uadmin
 delete usr/sbin/dminfo
 delete usr/share/man/man8/dminfo.8
 delete usr/share/man/man5/device_maps.5

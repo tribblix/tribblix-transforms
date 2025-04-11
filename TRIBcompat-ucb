@@ -9,3 +9,4 @@ delete usr/share/man/man1b/lpr.1b
 delete usr/share/man/man1b/lprm.1b
 delete usr/share/man/man1b/lptest.1b
 linkdel usr/ucb/rdate
+modify usr/ucb/file s:/usr/has/bin/file:/usr/bin/file:

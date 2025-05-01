@@ -267,3 +267,7 @@ modify usr/share/man/man1has/file.1has s:1HAS:1:
 replace etc/default/useradd
 modify etc/cron.d/at.deny /nuucp/d
 modify etc/cron.d/cron.deny /nuucp/d
+linkdel etc/ftpusers
+delete etc/ftpd/ftpusers
+rmdir etc/ftpd
+delete usr/share/man/man5/ftpusers.5

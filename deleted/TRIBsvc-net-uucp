@@ -1,2 +1,6 @@
 Not only an archaic subsystem, measured use of uucp (by looking at package
 installation statistics) is precisely zero.
+
+The nuucp user and group have also been deleted. The uucp user is still used
+by the tip utility, and /var/adm/aculog and /var/spool/locks, which need to
+be kept.

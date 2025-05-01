@@ -271,3 +271,4 @@ linkdel etc/ftpusers
 delete etc/ftpd/ftpusers
 rmdir etc/ftpd
 delete usr/share/man/man5/ftpusers.5
+linkdel etc/grpck

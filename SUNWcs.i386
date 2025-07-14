@@ -1,0 +1,2 @@
+delete usr/bin/ls
+rename usr/bin/amd64/ls usr/bin/ls

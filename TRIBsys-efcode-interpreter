@@ -1,0 +1,3 @@
+delete etc/flash/postdeployment/efcode.cleanup
+rmdir etc/flash/postdeployment
+rmdir etc/flash

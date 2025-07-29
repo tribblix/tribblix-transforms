@@ -1,0 +1,3 @@
+delete etc/flash/postdeployment/ttydefs.cleanup
+rmdir etc/flash/postdeployment
+rmdir etc/flash

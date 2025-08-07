@@ -1,0 +1,10 @@
+linkdel usr/platform/SUNW,Ultra-Enterprise-10000/include
+rmdir usr/platform/SUNW,Ultra-Enterprise-10000
+linkdel usr/platform/SUNW,UltraSPARC-IIe-NetraCT-40/include
+rmdir usr/platform/SUNW,UltraSPARC-IIe-NetraCT-40
+linkdel usr/platform/SUNW,UltraSPARC-IIe-NetraCT-60/include
+rmdir usr/platform/SUNW,UltraSPARC-IIe-NetraCT-60
+linkdel usr/platform/SUNW,UltraSPARC-IIi-Netract/include
+rmdir usr/platform/SUNW,UltraSPARC-IIi-Netract
+linkdel usr/platform/SUNW,Ultra-Enterprise/include
+rmdir usr/platform/SUNW,Ultra-Enterprise

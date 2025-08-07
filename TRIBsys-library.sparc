@@ -1,0 +1,4 @@
+linkdel usr/lib/sparcv9/libsip.so
+delete usr/lib/sparcv9/libsip.so.1
+linkdel usr/lib/sparcv9/libcommputil.so
+delete usr/lib/sparcv9/libcommputil.so.1

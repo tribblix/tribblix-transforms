@@ -2,3 +2,9 @@ modify lib/svc/manifest/system/boot-archive.xml s/cpio/hsfs/
 undepend TRIBsys-boot-loader
 delete usr/bin/ls
 rename usr/bin/sparcv9/ls usr/bin/ls
+delete usr/bin/sparcv9/setuname
+linkdel etc/svc/profile/platform_SUNW,UltraSPARC-IIe-NetraCT-40.xml
+linkdel etc/svc/profile/platform_SUNW,UltraSPARC-IIe-NetraCT-60.xml
+delete etc/svc/profile/platform_SUNW,UltraSPARC-IIi-Netract.xml
+rmdir usr/sbin/sparcv9
+delete etc/svc/profile/platform_SUNW,Ultra-Enterprise-10000.xml

@@ -1,5 +1,3 @@
 name Resource Capping Daemon
-rmdir usr/lib/rcap/sparcv7
-rmdir usr/lib/rcap/sparcv9
 rmdir usr/lib/rcap/i86
 rmdir usr/lib/rcap/amd64

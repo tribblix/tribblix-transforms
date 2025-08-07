@@ -44,4 +44,3 @@ delete usr/share/man/man1/asa.1
 delete usr/bin/newform
 delete usr/share/man/man1/newform.1
 rmdir usr/sbin/amd64
-rmdir usr/sbin/sparcv9

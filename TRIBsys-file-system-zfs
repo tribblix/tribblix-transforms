@@ -6,12 +6,9 @@ linkdel usr/lib/libzfs_jni.so
 delete usr/lib/libzfs_jni.so.1
 linkdel usr/lib/amd64/libzfs_jni.so
 delete usr/lib/amd64/libzfs_jni.so.1
-linkdel usr/lib/sparcv9/libzfs_jni.so
-delete usr/lib/sparcv9/libzfs_jni.so.1
 delete usr/lib/zfs/pyzfs.py
 delete usr/lib/zfs/pyzfs.pyc
 delete usr/lib/zfs/availdevs
 rmdir usr/lib/zfs
 delete usr/share/man/man8/ztest.8
 rmdir usr/sbin/amd64
-rmdir usr/sbin/sparcv9

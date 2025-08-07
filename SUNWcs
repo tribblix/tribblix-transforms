@@ -25,7 +25,6 @@ replace etc/shadow
 replace etc/inet/hosts
 replace root/.bashrc
 replace root/.profile
-delete etc/svc/profile/platform_SUNW,Ultra-Enterprise-10000.xml
 undepend TRIBsys-net-mailwrapper
 rrmdir usr/lib/help
 type etc/init.d/README f
@@ -74,7 +73,6 @@ linkdel usr/src
 rmdir usr/share/src
 delete usr/bin/crypt
 delete usr/share/man/man1/crypt.1
-delete usr/bin/sparcv9/setuname
 delete usr/bin/amd64/setuname
 delete usr/bin/i86/setuname
 delete usr/share/man/man8/setuname.8
@@ -134,9 +132,6 @@ add usr/bin/whois group=bin mode=0555 owner=root
 add usr/sbin/snoop group=bin mode=0555 owner=root
 add usr/share/man/man1/whois.1 group=bin mode=0444 owner=root
 add usr/share/man/man8/snoop.8 group=bin mode=0444 owner=root
-linkdel etc/svc/profile/platform_SUNW,UltraSPARC-IIe-NetraCT-40.xml
-linkdel etc/svc/profile/platform_SUNW,UltraSPARC-IIe-NetraCT-60.xml
-delete etc/svc/profile/platform_SUNW,UltraSPARC-IIi-Netract.xml
 rrmdir usr/share/doc
 linkdel usr/bin/strerr
 linkdel usr/bin/strclean
@@ -262,7 +257,6 @@ rmdir usr/demo
 rmdir lib/crypto
 rmdir usr/lib/crypto
 rmdir usr/sbin/amd64
-rmdir usr/sbin/sparcv9
 replace usr/share/man/man1/more.1
 delete usr/bin/pax
 delete usr/share/man/man1/pax.1

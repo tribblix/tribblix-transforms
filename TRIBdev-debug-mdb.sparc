@@ -1,0 +1,4 @@
+delete usr/lib/mdb/proc/sparcv9/libpython2.6.so
+delete usr/lib/mdb/proc/sparcv9/libpython2.7.so
+delete kernel/kmdb/sparcv9/nca
+delete usr/lib/mdb/kvm/sparcv9/nca.so

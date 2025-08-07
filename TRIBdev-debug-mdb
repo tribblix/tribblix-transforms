@@ -1,10 +1,6 @@
 delete usr/lib/mdb/proc/amd64/libpython2.6.so
-delete usr/lib/mdb/proc/sparcv9/libpython2.6.so
 delete usr/lib/mdb/proc/libpython2.6.so
 delete usr/lib/mdb/proc/amd64/libpython2.7.so
-delete usr/lib/mdb/proc/sparcv9/libpython2.7.so
 delete usr/lib/mdb/proc/libpython2.7.so
 delete kernel/kmdb/amd64/nca
-delete kernel/kmdb/sparcv9/nca
 delete usr/lib/mdb/kvm/amd64/nca.so
-delete usr/lib/mdb/kvm/sparcv9/nca.so

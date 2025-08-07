@@ -1,0 +1,3 @@
+linkdel usr/lib/sparcv9/libzfs_jni.so
+delete usr/lib/sparcv9/libzfs_jni.so.1
+rmdir usr/sbin/sparcv9

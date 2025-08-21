@@ -1,0 +1,5 @@
+linkdel usr/share/man/man8/rdisc.8
+delete usr/share/man/man8/in.rdisc.8
+delete usr/sbin/in.rdisc
+delete lib/svc/method/svc-rdisc
+delete lib/svc/manifest/network/routing/rdisc.xml

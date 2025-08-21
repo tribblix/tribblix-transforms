@@ -21,3 +21,7 @@ delete usr/lib/libcommputil.so.1
 delete usr/lib/amd64/libcommputil.so.1
 undepend TRIBsys-lib-storage-scsi-plugin
 delete usr/lib/libc/libc_hwcap3.so.1
+linkdel usr/lib/libmp.so.1
+delete lib/libmp.so.1
+linkdel usr/lib/libresolv.so.1
+delete lib/libresolv.so.1

@@ -272,3 +272,4 @@ delete usr/share/man/man5/ftpusers.5
 linkdel etc/grpck
 delete usr/bin/dumpcs
 delete usr/share/man/man1/dumpcs.1
+modify usr/sbin/shutdown s:/usr/sbin/wall:/usr/bin/true:

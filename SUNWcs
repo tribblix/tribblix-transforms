@@ -273,3 +273,13 @@ linkdel etc/grpck
 delete usr/bin/dumpcs
 delete usr/share/man/man1/dumpcs.1
 modify usr/sbin/shutdown s:/usr/sbin/wall:/usr/bin/true:
+linkdel usr/sbin/quotacheck
+delete usr/lib/fs/ufs/quotacheck
+delete usr/share/man/man8/quotacheck.8
+linkdel usr/lib/fs/ufs/quotaon
+linkdel usr/sbin/quotaoff
+linkdel usr/sbin/quotaon
+delete usr/lib/fs/ufs/quotaoff
+linkdel usr/share/man/man8/quotaoff.8
+delete usr/share/man/man8/quotaon.8
+delete usr/share/man/man4i/quotactl.4i

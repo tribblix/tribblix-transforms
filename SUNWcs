@@ -30,11 +30,6 @@ rrmdir usr/lib/help
 type etc/init.d/README f
 type etc/init.d/PRESERVE f
 type etc/init.d/sysetup f
-linkdel usr/share/man/man1/file.1
-rename usr/has/man/man1has/file.1has usr/share/man/man1/file.1
-modify usr/share/man/man1/file.1 s:1HAS:1:
-linkdel usr/bin/file
-rename usr/has/bin/file usr/bin/file
 linkdel usr/has/bin/jsh
 linkdel usr/has/bin/pfsh
 linkdel usr/has/lib/rsh

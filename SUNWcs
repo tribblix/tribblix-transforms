@@ -277,4 +277,3 @@ linkdel usr/sbin/quotaon
 delete usr/lib/fs/ufs/quotaoff
 linkdel usr/share/man/man8/quotaoff.8
 delete usr/share/man/man8/quotaon.8
-delete usr/share/man/man4i/quotactl.4i

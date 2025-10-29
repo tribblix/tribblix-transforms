@@ -13,3 +13,4 @@ delete usr/include/sys/tnf_probe.h
 delete usr/include/sys/tnf_writer.h
 delete usr/include/libgrubmgmt.h
 replace usr/include/sys/int_types.h
+delete usr/share/man/man4i/quotactl.4i

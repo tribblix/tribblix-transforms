@@ -5,3 +5,4 @@ rename usr/has/man/man1has/file.1has usr/share/man/man1/file.1
 modify usr/share/man/man1/file.1 s:1HAS:1:
 linkdel usr/bin/file
 rename usr/has/bin/file usr/bin/file
+rrmdir usr/has

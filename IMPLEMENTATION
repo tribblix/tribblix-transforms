@@ -6,6 +6,9 @@ For each package we wish to transmogrify, a file named after the SVR4
 package will exist here. The conversion script simply looks for the
 name.
 
+There may also be a platform-specific transform file. This is run after
+the generic transform.
+
 The file contains lines of actions. Generally, the format of each line
 will be
 

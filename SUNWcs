@@ -45,7 +45,6 @@ linkdel usr/has/bin/view
 linkdel usr/has/bin/vi
 linkdel usr/has/bin/ex
 delete usr/has/bin/edit
-rrmdir usr/has
 linkdel etc/ff
 linkdel etc/ncheck
 linkdel usr/sbin/ncheck

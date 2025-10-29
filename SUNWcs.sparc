@@ -8,3 +8,4 @@ linkdel etc/svc/profile/platform_SUNW,UltraSPARC-IIe-NetraCT-60.xml
 delete etc/svc/profile/platform_SUNW,UltraSPARC-IIi-Netract.xml
 rmdir usr/sbin/sparcv9
 delete etc/svc/profile/platform_SUNW,Ultra-Enterprise-10000.xml
+rrmdir usr/has

@@ -1,1 +1,2 @@
 depend TRIBsys-lib-storage-ima-header
+depend TRIBnet-iscsi-iser

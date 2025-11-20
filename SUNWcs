@@ -60,6 +60,7 @@ delete usr/lib/fs/ufs/volcopy
 delete usr/sbin/volcopy
 delete usr/share/man/man8/volcopy.8
 delete usr/share/man/man8/volcopy_ufs.8
+linkdel etc/labelit
 linkdel usr/sbin/quot
 delete usr/lib/fs/ufs/quot
 delete usr/share/man/man8/quot.8
